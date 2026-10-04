@@ -1,0 +1,1 @@
+{"format_version":"1.17.41","minecraft:recipe_shapeless":{"description":{"identifier":"stv:sdl_book_config"},"tags":["crafting_table"],"ingredients":[{"item":"minecraft:torch"},{"item":"minecraft:coal"},{"item":"minecraft:book"}],"result":{"item":"stv:sdl_book_config"}}}

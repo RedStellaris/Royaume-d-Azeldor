@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "08 - Azeldor Pack - Disques Custom [Ressources]",
+    "description": "Sons & textures disques - Lader Corps - Azeldor Teams",
+    "min_engine_version": [
+      1,
+      21,
+      20
+    ],
+    "uuid": "ebb07356-7a6a-48a2-8d84-ee567af3e3ab",
+    "version": [
+      1,
+      1,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "00ad0d2d-7026-4a8a-8d71-a7b2f1e35f78",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "4f654919-9aec-43a2-9250-1d2b095faf16",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ]
+}

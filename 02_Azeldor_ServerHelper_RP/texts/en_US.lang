@@ -1,0 +1,1577 @@
+ui.general.add_title=§2Add %s
+ui.general.remove.title=§cRemove %s 
+ui.general.list_header=§e--- %s ---
+ui.general.enter_id=Enter %s ID
+ui.general.example_id=e.g., minecraft:apple
+ui.general.enter_value=Enter Quantity/Value
+ui.general.example_value=e.g., 1
+ui.general.none_found=§cNo %s found to remove.
+ui.general.enter_username=Enter player username:
+ui.general.username_placeholder=Username
+
+general.id_label=ID
+general.itemId_placeholder=minecraft:diamond
+general.qty_label=Qty
+general.qty_placeholder=64
+
+ui.general.coord.x=X Coord
+ui.general.coord.y=Y Coord
+ui.general.coord.z=Z Coord
+ui.general.coord.blank=Leave blank for player location
+
+ui.general.button.list=§bList
+ui.general.button.add=§2Add
+ui.general.button.remove=§cRemove
+ui.general.button.back=§8[ Back ]
+ui.general.button.confirm=§4Confirm
+ui.general.button.cancel=§aCancel
+ui.button.back_double= Back
+ui.button.admin_back=§8[ Back ]
+ui.button.close=Close
+ui.button.confirm=§4Confirm
+ui.button.cancel=§aCancel
+ui.button.spin=§aSpin
+
+ui.status.allowed=§aALLOWED
+ui.status.denied=§cDENIED
+ui.status.enabled=§aENABLED
+ui.status.disabled=§cDISABLED
+status.enabled=§aEnabled
+status.disabled=§cDisabled
+status.on= §aON
+status.off= §cOFF
+
+ui.error.restricted.title=§cRestricted Area
+ui.error.restricted.body=§7You cannot interact in this area: §f%1
+ui.error.restricted.button.close=Close
+
+ui.admin.title=§sAdmin Panel 
+ui.admin.button.moderation=§4Moderation
+ui.admin.button.customization=§5Customization
+ui.admin.button.helpers=§2Helpers
+ui.admin.button.warnings=§6Warnings
+ui.admin.button.toggles=§aToggles
+ui.admin.button.settings=§1Settings
+
+form.helper.title=§2Helper Menu
+form.helper.button.noperms=§cNo Permissions
+form.helper.group.moderation=§4--- Moderation ---
+form.helper.group.customization=§5--- Customization ---
+form.helper.group.misc=§2--- Misc ---
+form.helper.toggle.dupe=Edit Anti Dupe
+form.helper.toggle.inventory=View Inventory
+form.helper.toggle.echest=View Ender Chest
+form.helper.toggle.ban=Ban Management
+form.helper.toggle.freeze=Freeze Player
+form.helper.toggle.mute=Mute Management
+form.helper.toggle.spy=Command Spy
+form.helper.toggle.itemban=Banned Items
+form.helper.toggle.manageclaims=Manage Claims
+form.helper.toggle.vaults=Admin Vaults
+form.helper.toggle.economy=Economy Settings
+form.helper.toggle.adminClaim=Admin Claiming
+form.helper.toggle.holograms=Edit Holograms
+form.helper.toggle.spawners=Spawner Settings
+form.helper.toggle.warps=Manage Warps
+form.helper.toggle.crates=Crate Settings
+form.helper.toggle.chatTags=Chat Tags
+form.helper.toggle.trade=Trade Settings
+form.helper.toggle.broadcast=Auto Broadcast
+form.helper.toggle.mobSpawn=Mob Spawning
+form.helper.toggle.bounties=Bounty Settings
+form.helper.toggle.toggles=Toggle Features
+form.helper.toggle.settings=General Settings
+
+form.helper.button.dupe=§bAnti-Dupe
+form.helper.button.inventory=§bInventory
+form.helper.button.echest=§dEnder Chests
+form.helper.button.ban=§4Ban Menu
+form.helper.button.freeze=§3Freeze Menu
+form.helper.button.mute=§8Mute Menu
+form.helper.button.spy=§0Spy Menu
+form.helper.button.itemban=§cItem Ban
+form.helper.button.manageclaims=§eManage Claims
+form.helper.button.vaults=§9Player Vaults
+form.helper.button.helper_economy=§6Economy
+form.helper.button.adminClaim=§2Admin Land Claim
+form.helper.button.holograms=§bHolograms
+form.helper.button.spawners=§aSpawners
+form.helper.button.warps=§eWarps
+form.helper.button.crates=§3Crates Menu
+form.helper.button.chatTags=§dCustom Tags
+form.helper.button.trade=§gTrade Menu
+form.helper.button.broadcast=§dBroadcasts
+form.helper.button.mobSpawn=§2Mob Spawning
+form.helper.button.bounties=§2Bounty System
+form.helper.button.toggles=§2Toggles
+form.helper.button.settings=§1Settings
+
+ui.player.menu.title=§bPlayer Menu
+ui.player.menu.claim=§eLand Claim
+ui.player.menu.spawn=§eSpawn
+ui.player.menu.home=§eHome
+ui.player.menu.warps=§eWarps
+ui.player.menu.rtp=§eRandom Teleport
+ui.player.menu.tpa=§eTPA Menu
+ui.player.menu.shop=§eShop
+ui.player.menu.spawners=§eSpawners
+ui.player.menu.crates=§eCrates
+ui.player.menu.bounties=§eBounties
+playerMenu.error.disabled=§cPlayer Menu is disabled!
+
+ui.custom.title=§5Customization
+ui.custom.economy=§6Economy
+ui.custom.admin_land=§2Admin Land Claim
+ui.custom.holograms=§bHolograms
+ui.custom.spawners=§aSpawners
+ui.custom.warps=§eWarps
+ui.custom.crates=§3Crates Menu
+ui.custom.tags=§dCustom Tags
+ui.custom.trade=§gTrade Menu
+ui.custom.broadcasts=§dBroadcasts
+ui.custom.mob_spawning=§2Mob Spawning
+ui.custom.bounty=§2Bounty System
+ui.custom.deaths=§cManage Deaths
+ui.custom.codes=Codes
+ui.custom.button.adminClaim=§2Admin Land Claim
+
+ui.settings.title=§1Settings
+ui.settings.group.global=§dGlobal
+ui.settings.group.world=§2World Borders
+ui.settings.group.teleport=§5Teleportation & RTP
+ui.settings.group.gameplay=§eGameplay & Combat
+ui.settings.group.anticheat=§4Anti Cheat
+
+ui.settings.label.language=Server Language
+ui.settings.label.crateTime=Crate Open Time
+ui.settings.label.minbounty=Minimum Bounty
+ui.settings.label.worldBorder_overworld=Overworld Border
+ui.settings.label.worldBorder_nether=Nether Border
+ui.settings.label.worldBorder_the_end=End Border
+ui.settings.label.teleportTime=Teleport Time
+ui.settings.label.rtpRad=RTP Radius
+ui.settings.label.rtpCd=RTP CoolDown
+ui.settings.label.rtpAtt=RTP Attempt Time
+ui.settings.label.maxhomes=Max Homes
+ui.settings.label.maxland=Max Land Claim
+ui.settings.label.maxah=Max AH Listings
+ui.settings.label.combattime=Combat Log Time
+ui.settings.label.chatrange=Proximity Chat Range
+ui.settings.label.maxspawnerstack=Max Spawner Stack
+ui.settings.label.pv_amount=Max Private Vaults
+ui.settings.label.cleartime=Item Clearer Interval
+ui.settings.label.cleardelay=Item Clearer Delay
+ui.settings.label.mobStackRad=Mob Stack Radius
+ui.settings.label.max_cps=Min CPS warning
+ui.settings.label.minkillauradeg=Kill-Aura Min Degree
+ui.settings.label.minflyheight=Fly Warning Height
+ui.settings.label.minflytime=Fly Detection Time
+ui.settings.label.reachdistance=Reach Distance
+ui.settings.warning.reload=§eReload world to implement changes!
+ui.settings.warning.radius=§eMin radius is 200.
+
+ui.toggles.title=§2Toggles Menu
+ui.toggles.group.global=§dGlobal
+ui.toggles.group.world=§2World Borders\n& Dimensions
+ui.toggles.group.teleport=§5Teleportation & RTP
+ui.toggles.group.gameplay=§eGameplay & Combat
+ui.toggles.group.anticheat=§4Anti Cheat
+
+ui.toggles.label.helper=Helper Menu
+ui.toggles.label.economy=Economy
+ui.toggles.label.ah=Auction House
+ui.toggles.label.bazaar=Bazaar
+ui.toggles.label.ahModItems=Allow modded items in AH
+ui.toggles.label.cratetoggle=Crates
+ui.toggles.label.proxchat=Proximity Chat
+ui.toggles.label.customTagVisible=Custom UI
+ui.toggles.label.simple_spawners=Simple Spawners
+ui.toggles.label.protectedspawner=Protected Spawners
+ui.toggles.label.oldinvsee=Use Old Inventory Viewer
+ui.toggles.label.maintenance=Maintenance Mode
+ui.toggles.label.worldBorderEnabled=World Border
+ui.toggles.label.nether=Nether Dimension
+ui.toggles.label.end=End Dimension
+ui.toggles.label.tpa=TPA
+ui.toggles.label.rtp=Random Teleport
+ui.toggles.label.rtp_nether=Nether RTP
+ui.toggles.label.rtp_end=End RTP
+ui.toggles.label.back=Back Command
+ui.toggles.label.landclaim=Land Claim
+ui.toggles.label.combatlog=Combat Log
+ui.toggles.label.mobCL=Mobs cause CL
+ui.toggles.label.mobStack=Mob Stacking
+ui.toggles.label.bountyToggle=Bounties
+ui.toggles.label.pv=Private Vaults
+ui.toggles.label.itemclear=Item Clearer
+ui.toggles.label.itemNames=Item NameTags
+ui.toggles.label.ctags=Chat Tags
+ui.toggles.label.mtags=Multiple Chat Tags
+ui.toggles.label.headRank=Ranks Above Head
+ui.toggles.label.visableHealth=Visible Health
+ui.toggles.label.pmenu=Player Menu
+ui.toggles.label.wither=Disable Wither
+ui.toggles.label.combatfly=Combat cancels Elytra
+ui.toggles.label.playerheads=Player Heads
+ui.toggles.label.dupekick=Auto Kick Dupe Violations
+ui.toggles.label.itemkick=Auto Kick Item Ban Violations
+ui.toggles.label.cpskick=Auto Kick CPS Violations
+ui.toggles.label.aurakick=Auto Kick Kill-Aura Violations
+ui.toggles.label.wordkick=Auto Kick Banned Word Violations
+ui.toggles.label.antiBundle=Anti Bundle Dupe
+ui.toggles.label.builtInTags=Built In Tags
+ui.toggles.label.reachkick=Auto Kick Reach Violations
+
+
+ui.moderation.title=§4Moderation 
+ui.moderation.button.antidupe=§bAnti-Dupe
+ui.moderation.button.inventory=§aInventory
+ui.moderation.button.enderchests=§dEnder Chests
+ui.moderation.button.ban=§4Ban Menu
+ui.moderation.button.freeze=§3Freeze Menu
+ui.moderation.button.mute=§8Mute Menu
+ui.moderation.button.spy=§0Spy Menu
+ui.moderation.button.itemban=§cItem Ban
+ui.moderation.button.claims=§eManage Claims
+ui.moderation.button.vaults=§9Player Vaults
+ui.moderation.button.bannedwords=§4Banned Words
+
+ui.ban.title=§4Ban Menu
+ui.ban.button.ban=§cBan Player
+ui.ban.button.unban=§aUnban Player
+ui.ban.status.title=§6Select Status
+ui.ban.status.online=§bOnline
+ui.ban.status.offline=§8Offline
+ui.ban.select.title=§cBan Player
+ui.ban.offline.title=§4Ban Offline Player
+ui.unban.offline.title=§aUnban Player
+ui.kick.banned=Banned Item Found
+
+ui.freeze.title=§3Freeze Menu 
+ui.freeze.select.freeze=Select to Freeze
+ui.freeze.select.unfreeze=Select to Unfreeze
+ui.freeze.button.freeze=Freeze
+ui.freeze.button.unfreeze=Unfreeze
+
+ui.mute.title=§8Mute Menu 
+ui.unmute.title=§8UnMute Menu 
+ui.mute.button.mute=Mute
+ui.mute.button.unmute=Unmute
+
+ui.spy.menu.title=Spy Menu
+ui.spy.title=§0Global Player Data
+ui.spy.menu.view_data=View Player Data
+ui.spy.menu.follow=Follow Player
+ui.spy.select.follow=Follow Player
+ui.spy.active_players=§7Active Players: §f%s\n§8--------------------------\n
+ui.spy.effects=§dEffects:\n
+ui.spy.none=§8None
+ui.spy.button.refresh=§8[ Refresh ]
+ui.spy.button.back=§8[ Back ]
+
+ui.itemban.title=§cItem Ban 
+ui.bannedWords.title=§4Banned Words 
+ui.bannedWords.field.word=Word:
+ui.bannedWords.field.word.subtext=e.g., badword
+ui.bannedWords.field.threshold=Mute Threshold
+ui.bannedWords.field.threshold.subtext=e.g., 3
+
+ui.antidupe.title=§bAnti-Dupe 
+antidupe.listHeader=§b--- Tracked Items ---\n
+antidupe.alert.illegal_item=§4[ILLEGAL ITEM] §e%1 §chad §b%2§c. Item was deleted.
+antidupe.alert.item_threshold=§c⚠ Item alert: §e%1§c has %2 §b%3(s)
+antidupe.kick.reason=Dupe Detection
+
+form.warning.title==§6Staff Alerts
+form.warning.button.fly=§eFly Warning§r\n§8Status:
+form.warning.button.item=§eItem Warning§r\n§8Status:
+form.warning.button.killaura=§eKillAura Warning§r\n§8Status:
+form.warning.button.back=§8[ Back ]
+
+ui.economy.title=§6Economy Menu
+ui.economy.editBuy=§aEdit Buy Shop
+ui.economy.editSell=§aEdit Sell Shop
+ui.economy.balances=§eView Balances
+ui.economy.load=§2Load Pre-Made Shop
+ui.economy.clear=§cClear Shop
+
+ui.admin.shop.add.title=§6Add Shop Item
+
+ui.trade.title=§gTrade Menu
+ui.trade.scoreboard=Scoreboard (Currency):
+
+ui.ah.search.title=§c§u§s§t§o§m§6Search Filters
+ui.ah.search.dropdown=Search By:
+ui.ah.search.option.item=Item Name
+ui.ah.search.option.seller=Seller Name
+ui.ah.search.keywords=Filter Keywords:
+ui.ah.search.placeholder=e.g. Diamond / Steve
+
+bazaar.title.instant_buy=Instant Buy
+bazaar.title.instant_sell=Instant Sell
+bazaar.title.setup_order=Setup Custom Order
+bazaar.title.trade=Trade: %s
+bazaar.title.search=Search
+bazaar.textfield.quantity_buy=Quantity to buy (Market Max: %s):
+bazaar.textfield.quantity_sell=Quantity to sell (Market Max: %s):
+bazaar.textfield.enter_amount=Enter amount...
+bazaar.label.quantity=Quantity:
+bazaar.placeholder.amount=Amount to trade
+bazaar.label.price=Price per unit:
+bazaar.placeholder.price=Price in coins
+bazaar.label.currency=Currency:
+bazaar.label.order_type=Order Type:
+bazaar.label.enter_item_name=Enter item name:
+bazaar.dropdown.sell_offer=Sell Offer
+bazaar.dropdown.buy_order=Buy Order
+
+bazaar.item.buy=§7Buy: §a%s
+bazaar.item.sell=§7Sell: §6%s
+bazaar.item.click_trade=§8Click to Trade
+bazaar.order.buy_title=§b[BUY ORDER] §r%s
+bazaar.order.sell_title=§6[SELL OFFER] §r%s
+bazaar.order.price=§7Price: §e%s %s
+bazaar.order.remaining=§7Remaining: §f%s
+bazaar.order.claim_items=§aCLAIM: §f%s Items
+bazaar.order.claim_currency=§aCLAIM: §f%s %s
+bazaar.order.click_cancel=§8Click to Cancel Order
+
+bazaar.button.view_market=§cView: §fMarket
+bazaar.button.view_orders=§6View: §fMy Orders
+bazaar.button.category=§aCategory: §f%s
+bazaar.button.search=§eSearch: §f%s
+bazaar.button.sort=§bSort: §f
+bazaar.sort.high_to_low=High to Low
+bazaar.sort.low_to_high=Low to High
+bazaar.sort.newest=Newest
+bazaar.sort.oldest=Oldest
+bazaar.button.previous=§6Previous
+bazaar.button.next=§dNext
+bazaar.button.buy_instantly=Buy Instantly: %s
+bazaar.button.sell_instantly=Sell Instantly: %s
+bazaar.button.create_order=Custom order
+
+ui.inventory.title=§aInventory View 
+ui.invsee.title=§aInventory View: §f%1$s
+ui.invsee.manage.title=§bManage Item
+ui.invsee.manage.remove=§cRemove Item
+message.invsee.removed=§aRemoved §f%1$s §afrom §f%2$s§a's inventory.
+ui.inventory.target_items=§b%s's Items
+ui.inventory.item_format=%s x%s
+ui.inventory.manage_item.title=§cManage Item
+ui.inventory.manage_item.remove=§cRemove Item
+
+ui.echestselect.title=§dEnder Chests 
+ui.echest.menu.title=§dEnder Chests 
+ui.echest.title=§d%s's E-Chest 
+ui.echest.item_format=§b%s §fx%s
+ui.echest.empty=§cNo recent data found.
+
+ui.vaultViewMenu.title=§9Player Vaults 
+ui.vault.title=§9Vault: §f%s
+ui.vault.empty=§cThis vault is empty.
+ui.vault.body=§7Total Items: §f%s\n§7Select an item to §cremove§7 it.
+ui.vault.item_button=§0%s §8(x%s)\n§8Page: %s
+ui.vault.confirm.title=§4Delete Item?§r
+ui.vault.confirm.body=Are you sure you want to remove §f%s§r from §f%s§r's vault?
+
+ui.adminClaim.title=§2Admin Land Claim
+ui.adminClaim.new=§2Create New 3D Claim
+ui.adminClaim.manage=§6Manage Existing
+
+ui.claims.title=§eManage Claims
+ui.claims.manage.title=§e%s
+ui.claims.unknown=Unknown Claim
+ui.claims.button.remove=§4Remove Claim
+ui.claims.button.teleport=§aTeleport§r\n§8%s, %s
+
+ui.admin.zones.title=§2Manage Admin Zones
+ui.admin.zones.empty=§cNo admin zones found.
+ui.admin.zones.button.zone=§0%s§r\n§8%s blocks
+ui.admin.zone_manage.button.permissions=§6Permissions
+ui.admin.zone_manage.button.whitelist=§bTrusted Players
+ui.admin.zone_manage.button.mob_spawning=§3Mob Spawning
+ui.admin.zone_manage.button.spawn_protection=§5Spawn Protection
+ui.admin.zone_manage.button.delete=§4DELETE ZONE
+ui.admin.zone_manage.button.frame=Visual Frame
+ui.admin.zone_manage.button.mob_damage=§cMob damage
+ui.admin.zone_manage.button.pvp_protection=§gPlayer Damage
+
+ui.admin.permissions.title=§6Zone Permissions 
+ui.admin.permissions.button.chests=§ePublic Chests
+ui.admin.permissions.button.pearls=§dEnder Pearls
+ui.admin.permissions.button.public_blocks=§bPublic Blocks
+
+ui.admin.breakable.title=Public Blocks
+ui.admin.breakable.body=§7Zone: §f%s\n§7Select a block to §cremove§7 it.
+ui.admin.breakable.button.add=§2+ Add New ID
+ui.admin.breakable.button.remove=§cRemove:\n§f%s
+ui.admin.breakable.add.title=Add Block
+ui.admin.breakable.add.label=ID (namespace:id):
+
+ui.admin.whitelist.title=§bZone Whitelist
+ui.admin.whitelist.body=§7Zone: §f%s\n§7Trusted: %s
+ui.admin.whitelist.body.none=None
+ui.admin.whitelist.button.add=§2Add Player
+ui.admin.whitelist.button.remove=§cRemove Player
+ui.admin.whitelist.add.title=Trust Player
+ui.admin.whitelist.add.label=Select:
+ui.admin.whitelist.remove.title=Remove Trust
+
+ui.admin.create_zone.title=Create Admin Zone
+ui.admin.create_zone.label=Zone Name
+ui.admin.create_zone.unnamed=Unnamed Zone
+
+landclaim.menu.title=§2Land Claim§r
+landclaim.menu.back=§8[ Back ]
+landclaim.menu.manage.has_claim=§9Manage Claim§r\n§8View details
+landclaim.menu.manage.no_claim=§9Manage Claim§r\n§8No claim found
+landclaim.menu.new.overwrite=§2New Claim§r\n§8Overwrite existing
+landclaim.menu.new.start=§2New Claim§r\n§8Start claiming
+landclaim.menu.remove=§cRemove Claim§r\n§8Delete your area
+
+landclaim.manage.title=§9My Claim§r
+landclaim.manage.limit=§7Limit: §b%s blocks
+landclaim.manage.details=§7Claim Details:\n\n§fSize: §b%1$s / %2$s §7blocks\n§fCorner A: §7%3$s, %4$s\n§fCorner B: §7%5$s, %6$s
+landclaim.manage.resize=§eResize Claim§r\n§8Change boundaries
+landclaim.manage.permissions=§6Permissions§r\n§8Blocks & Interaction
+landclaim.manage.trusted=§bTrusted Players§r\n§8Manage Whitelist
+
+landclaim.perms.title=§6Permissions§r
+landclaim.perms.public_blocks=§bPublic Blocks§r\n§8Manage Breakables
+landclaim.perms.chests.allowed=§ePublic Chests§r\n§8Current: §aALLOWED
+landclaim.perms.chests.denied=§ePublic Chests§r\n§8Current: §cDENIED
+landclaim.perms.pearls.allowed=§dEnder Pearls§r\n§8Current: §aALLOWED
+landclaim.perms.pearls.denied=§dEnder Pearls§r\n§8Current: §cDENIED
+
+landclaim.remove.title=§4Confirm Deletion§r
+landclaim.remove.label=§7Location: §f(%1$s, %2$s) §7to §f(%3$s, %4$s)\n\n§cType your username to confirm:
+landclaim.remove.textfield.label=Type: %s§r
+landclaim.remove.textfield.placeholder=Confirm name...
+
+landclaim.breakable.title=Public Blocks
+landclaim.breakable.body=§7Anyone can break these blocks in your claim.
+landclaim.breakable.add=§2+ Add New ID
+landclaim.breakable.remove=§cRemove: §f%s
+landclaim.breakable.modal.title=Add Block
+landclaim.breakable.modal.label=ID (namespace:id):
+
+landclaim.trusted.title=§bTrusted Players§r
+landclaim.trusted.body.list=§7Trusted players have full bypass permissions.\n\n§fCurrent: %s
+landclaim.trusted.body.none=§7Trusted players have full bypass permissions.\n\n§fCurrent: None
+landclaim.trusted.add=§2Add Player
+landclaim.trusted.remove=§cRemove Player
+landclaim.trusted.modal.title_add=Trust Player
+landclaim.trusted.modal.title_remove=Remove Trust
+landclaim.trusted.modal.label=Select Player:
+
+ui.warps.title=§eWarps
+warps.list=§e--- Server Warps ---
+warps_list=§e--- Warps ---
+ui.warp.add.title=§eAdd Warp
+ui.warp.add.name_label=Name
+ui.warp.add.coord_placeholder=Leave blank for player location
+ui.warp.remove.title=§cRemove Warp
+
+form.warp.title=§bSelect Warp
+form.warp.button=§e%1
+
+form.home.title=§bHome Menu
+form.home.body=§7Homes: %1 / %2
+form.home.button.tp=§eTeleport Home
+form.home.button.set=§aSet New Home
+form.home.button.remove=§cRemove Home
+form.tphome.title=Teleport Home
+form.sethome.title=Name Home
+form.sethome.textfield=Enter name:
+form.removehome.title=Remove Home
+form.removehome.button=§4Delete: §r%1
+
+rtp.menu.title=§6RANDOM TELEPORT
+rtp.menu.body.intro=§7Choose a dimension to begin your journey.
+rtp.menu.body.range=§8• §7Max Range: §f±%1
+rtp.menu.body.status.cooldown=§8• §7Status: §cOn Cooldown (%1s)
+rtp.menu.body.status.ready=§8• §7Status: §aReady to Use
+rtp.menu.button.back=§8[ Back ]
+
+tpa.menu.main.button.send=§eSend Request
+tpa.menu.main.button.accept=§dAccept TPA§r\n§8(%1) Pending
+tpa.menu.send.button.player=§e%1
+tpa.menu.accept.title=Incoming
+tpa.menu.accept.button.player=§aAccept §f%1
+
+ui.crates.title=§3Crates Menu
+ui.crates.physical=§2Physical Crate
+ui.crates.edit=§6Edit Crates
+ui.crates.body.cost=Cost: §r%1 %2
+ui.crates.body.item=\n§7-§r %1 §7(x%2)§r §e[%3%]§r
+
+crate.ui.menu.title=§3Crates
+crate.ui.menu.body=§7Select an action to manage your server crates.
+crate.ui.menu.button.new=§2New Crate
+crate.ui.menu.button.physical=§2Physical Crate
+crate.ui.menu.button.edit=§6Edit Crates
+crate.ui.menu.button.list=§bList Crates
+crate.ui.menu.button.remove=§cRemove Crate
+
+crate.ui.physical.title=Place Physical Crate
+crate.ui.physical.select_crate=Select Crate
+crate.ui.physical.scoreboard_label=Scoreboard
+crate.ui.physical.item_label=Item ID
+crate.ui.physical.item_help=Key item (e.g. minecraft:tripwire_hook)
+crate.ui.physical.direction_label=Direction
+crate.ui.physical.blank_help=Leave blank for current
+crate.ui.physical.choice_label=Choose either a scoreboard, or an item Key
+crate.ui.physical.x_label=X
+crate.ui.physical.y_label=Y
+crate.ui.physical.z_label=Z
+crate.ui.physical.particle_label=Passive Particle (Optional)
+crate.ui.physical.particle_placeholder=minecraft:totem_particle
+crate.ui.physical.particle_style_label=Particle Style
+
+crate.direction.north=North
+crate.direction.east=East
+crate.direction.south=South
+crate.direction.west=West
+
+crate.ui.add.title=§aAdd Crates
+crate.ui.add.name_label=Crate Name (You can use formatting codes)
+crate.ui.add.name_placeholder=Example: Water Crate
+crate.ui.add.scoreboard_label=Scoreboard
+crate.ui.add.cost_label=Cost
+crate.ui.add.cost_placeholder=100
+
+crate.ui.edit.title=§6Select Crate
+crate.ui.edit.none_found=§cNo crates found.
+
+crate.ui.manage.title=§0Manage: %s
+crate.ui.manage.button.add_items=§2Add Items
+crate.ui.manage.button.remove_items=§cRemove Items
+crate.ui.manage.button.edit_cost=§6Edit Cost
+crate.ui.manage.button.edit_scoreboard=§bEdit Scoreboard
+crate.ui.manage.add.item_id_label=Item Id
+crate.ui.manage.add.item_id_placeholder=minecraft:diamond
+crate.ui.manage.add.cover_name_label=Cover Name (You can use formatting codes)
+crate.ui.manage.add.cover_name_placeholder=Diamond
+crate.ui.manage.add.quantity_label=Quantity
+crate.ui.manage.add.quantity_placeholder=1
+crate.ui.manage.add.weight_label=Weight/Chance
+crate.ui.manage.add.weight_placeholder=15
+crate.ui.remove_item.title=Remove: %s
+crate.ui.upload.title=§bUpload ItemSet to Crate
+crate.ui.upload.select_set=ItemSet:
+crate.ui.upload.weight_label=Weight (Per Item)
+crate.ui.upload.weight_placeholder=e.g., 10
+crate.ui.loadItemSet=§2Add ItemSet
+
+crate.ui.list.title=§bCrate List
+crate.ui.list.empty=§cNo crates available.
+crate.ui.list.cost=§7Cost: §a%s §2%s§r\n
+crate.ui.list.items_header=§7Items:
+crate.ui.list.none= §cNone§r\n
+crate.ui.remove.title=§cRemove Crates
+crate.ui.general.none=None
+
+ui.spawners.title=§aSpawners
+spawner.ui.stack.title=Stack Spawners
+spawner.ui.unstack.title=Unstack Spawners
+spawner.ui.label.current=§7Current: 
+spawner.ui.label.available=§7Available: 
+spawner.ui.label.amount=§fAmount:
+ui.spawners.mob_id=Mob ID:
+ui.spawners.mob_id.subtext=minecraft:zombie
+ui.spawners.scoreboard=Scoreboard (Currency):
+ui.spawners.cost=Cost:
+ui.spawners.cost.subtext=1000
+ui.spawners.texture=Button Texture
+ui.spawners.texture.subtext=textures/items/...
+
+shop.spawner.title=§8» §2Spawner Shop§r §8«
+shop.spawner.body=Select a spawner to purchase.
+shop.spawner.button.item=§0%1§r\n§8Cost: %2§r %3
+shop.spawner.button.back=§8[ Back ]
+shop.spawner.modal.title=Buy %1
+shop.spawner.modal.textfield=How many §b%1§r spawners?\n§7Cost: %2 each
+
+ui.leaderboard.title=§bLeaderboards
+ui.leaderboard.id=Leaderboard ID
+ui.leaderboard.id.example=Example: Top Kills
+ui.leaderboard.objective=Scoreboard Objective
+
+ui.hologram.title=§bHolograms
+ui.hologram.newholo=§2New hologram
+ui.hologram.newleader=§2New leaderboard
+ui.hologram.list=§bList
+ui.hologram.remove=§cRemove
+ui.hologram.id=Hologram Identifier
+ui.hologram.id.example=Example: Welcome Message
+ui.hologram.info=Use '\n' to manually create new lines in your text.\nEach text field can hold max 100 characters!
+ui.hologram.line1=Line 1
+ui.hologram.line2=Line 2
+ui.hologram.line3=Line 3
+ui.hologram.line1.placeholder=Enter first part of message...
+ui.hologram.line2.placeholder=Enter second part (optional)...
+ui.hologram.line3.placeholder=Enter third part (optional)...
+ui.hologram.remove.title=§bRemove
+
+ui.bounty.title=§2Bounty System
+ui.bounty.admin.title=§2Bounty Admin§r
+ui.bounty.admin.body=§7Total Active: §f%s\n§7Location: 
+ui.bounty.button.location=§eLocation Display§r\n§8Status: 
+ui.bounty.button.scoreboards=§bManage Scoreboards§r\n§8Set usable currencies
+ui.bounty.button.bounty=§c%s§r\n§6%s %s
+
+bounty.status.enabled=§aENABLED
+bounty.status.disabled=§cDISABLED
+bounty.status.enabled_label=§aEnabled
+bounty.status.disabled_label=§cDisabled
+bounty.state.on=§aON
+bounty.state.off=§cOFF
+
+ui.bounty.sb.title=§bScoreboard Settings§r
+ui.bounty.sb.add=§2Add Scoreboard§r
+ui.bounty.sb.remove=§cRemove Scoreboard§r
+
+ui.bounty.currency.add.title=Add Currency
+ui.bounty.currency.add.dropdown=Scoreboard Objective:
+ui.bounty.currency.remove.title=Remove Currency
+ui.bounty.currency.remove.body_empty=No scoreboards set.
+
+ui.bounty.remove.title=§4Remove Bounty
+ui.bounty.remove.body=Are you sure you want to remove the bounty on §f%s§7?
+ui.bounty.no_currencies=§cNo currencies allowed for bounties. Admin intervention required.
+ui.bounty.button.add=§2Add Bounty
+ui.bounty.button.browse=§6Browse Bounties§r\n§8Active: %1
+ui.bounty.create.title=Create Bounty
+ui.bounty.create.target=Target Player:
+ui.bounty.create.currency=Currency:
+ui.bounty.create.amount=Amount:
+ui.bounty.create.no_boards=§cNo Boards Configured
+ui.bounty.list.title=Active Bounties
+ui.bounty.list.button=§c%1§r\n§6%2 %3
+ui.bounty.info.base=§7Target: §f%1\n§7Reward: §6%2 %3\n§7Placed by: §f%4\n
+ui.bounty.info.location=§7Last Known Pos: §a%1\n§8(Updated %2m ago)
+
+ui.customTags.title=§dChat Tags
+ui.chatTags.title=§dChat Tags
+ui.chatTags.tag=Tag:
+ui.chatTags.tag.subtext=member
+ui.chatTags.display=Display:
+ui.chatTags.display.subtext=§8[MEMBER]
+
+ui.broadcast.title=§dBroadcasts
+ui.broadcast.id=Broadcast ID:
+ui.broadcast.id.subtext=WelcomeMsg
+ui.broadcast.msg=Broadcast Message:
+ui.broadcast.msg.subtext=Welcome!
+ui.broadcast.interval=Interval
+ui.broadcast.interval.subtext=1
+
+ui.mobSpawning.title=§2Mob Spawning
+ui.mobSpawning.mob_id=Mob ID:
+ui.mobSpawning.mob_id.subtext=minecraft:zombie
+
+ui.codesHub.title=§bCodes Hub§r
+ui.codes.new=§2New Code
+ui.codes.edit=§6Edit Codes
+ui.newcode.title=§2Create New Code
+ui.newcode.code=Code:
+ui.newcode.code.subtext=100M!
+ui.codes.select.title=§bSelect Code§r
+ui.codes.select.body=§7Select a code to edit its rewards.
+ui.codes.manage.title=Manage: %s
+ui.codes.manage.body=§7Current Items: §f%s\n§7Current Scoreboards: §f%s
+ui.codes.manage.button.add_item=§2Add Item Reward
+ui.codes.manage.button.add_sb=§6Add Scoreboard Reward
+ui.codes.manage.button.remove=§cRemove Reward
+
+ui.codes.add_item.title=Add Item
+ui.codes.add_item.id_label=Item ID (namespace:id):
+ui.codes.add_item.amount_label=Amount:
+ui.codes.add_sb.title=Add Scoreboard
+ui.codes.add_sb.objective_label=Objective ID:
+ui.codes.add_sb.amount_label=Amount:
+ui.codes.remove_reward.title=Remove Reward
+ui.codes.remove_reward.item_label=§b[Item]\n§f%s\n(x%s)
+ui.codes.remove_reward.sb_label=§e[Score]]\n§f%s: %s
+
+ui.death.title=§cDeath Effects
+ui.death.button.particles=§bDeath Particles
+ui.death.button.sounds=§dDeath Sounds
+ui.death.button.attacker_cmds=§nAttacker Cmds
+ui.death.button.victim_cmds=§4Victim Cmds
+ui.death.sub.button.add=§aAdd
+ui.death.sub.button.remove=§cRemove Existing
+death.label.particles=Particles
+death.label.sounds=Sounds
+death.label.attacker_cmds=Attacker Cmds
+death.label.victim_cmds=Victim Cmds
+ui.death.remove.title=§4Remove: §r
+ui.death.add.title.particle=Add Particle
+ui.death.add.title.sound=Add Sound
+ui.death.add.id_label.particle=ID: (default: sh:death_particle)
+ui.death.add.id_label.sound=ID: (default: mob.ghast.death)
+ui.death.add.victim_player=Victim Must Be Player
+ui.death.add_cmd.title=Add Command
+ui.death.add_cmd.label=Command:
+ui.death.add_cmd.killer_player=Killer Must Be Player
+
+general.incorrectPermission=§cYou don't have permission for this!
+general.bannedItem=§cBanned item removed §e%s
+message.general.none_found=§cNo Entries Found!
+message.invviewer.no_permission=§cYou don't have permission for this!
+message.invviewer.wrong_owner=§cThis Inventory Viewer belongs to someone else!
+message.error.empty_input=§cInput cannot be empty!
+message.error.invalid_number=§cERROR §r§7Enter a valid number.
+message.error.invalid_data=§c[!] §7Invalid data.
+
+message.admin.removed_item=§6[Admin] §aRemoved §f%s§a from §f%s§a.
+message.admin.banned_player=§6[Admin] §aBanned §f%s§a.
+message.admin.no_bans=§c[!] §7No one is currently banned.
+message.toggles.is_now=is now
+message.settings.language_updated=§6[Admin] §7Language updated.
+message.helper.no_permission=§cYou need admin or helper to use this!
+message.helper.disabled=§c[Helper] §cHelper Menu is Disabled.
+message.helper.is_now=§7is now
+
+message.chat.muted=§cYou Are Muted!
+message.chat.banned_word.threshold=§4Threshold Reached! §cYou have been muted for using banned words.
+message.chat.banned_word.warning=§cMessage included banned word! Warning: §e%s/%s
+message.chat.banned_word.kick_reason=Banned Word Violations
+
+message.freeze.already_frozen=§c[!] §7Already frozen.
+message.freeze.success=§6[Admin] §aFroze §f%s§a.
+message.unfreeze.success=§6[Admin] §aPlayer unfrozen.
+message.mute.already_muted=§c[!] §7Already muted.
+message.mute.success=§6[Admin] §aMuted §f%s§a.
+message.unmute.success=§6[Admin] §aPlayer unmuted.
+
+message.admin.item_updated=§aItem updated successfully!
+message.admin.no_items_edit=§cNo items to edit.
+message.admin.item_added=§6[Admin] §aItem added.
+message.admin.item_removed=§6[Admin] §aItem removed.
+message.admin.shop.no_items_edit=§cNo items to edit.
+message.error.econ_disabled=§cEconomy is currently disabled.
+message.error.sb_exists=§cScoreboard already added!
+message.admin.added_sb=§aAdded: %s
+message.admin.no_sb_remove=§cNo scoreboards to remove!
+message.admin.removed_sb=§eRemoved: %s
+message.admin.premade_loaded=§6[Admin] §aPre-made shop loaded.
+message.admin.shop_cleared=§6[Admin] §7Shop cleared.
+
+message.vault.removed=§6[Admin] §aItem removed from vault.
+message.claims.removed=§aClaim removed successfully.
+message.claims.teleported=§aTeleported to %s
+message.admin.claim_mode_enabled=§c[Admin] §f3D Selection Mode §aENABLED§f. Break 2 blocks.
+message.admin.zone_deleted=§c[Admin] §fDeleted zone: %s
+
+message.claim.corner_1_set=§a[Claim] §fCorner 1 set!
+message.claim.too_large=§c[!] Too large! Max: %1 (You: %2).
+message.claim.overlap=§c[!] Overlap detected.
+message.claim.success=§a[Claim] §fSuccess! Size: %1
+landclaim.error.disabled=§cERROR §r§7Land Claims are currently disabled.
+landclaim.msg.not_found=§cNo claim found.
+landclaim.msg.removed=§aClaim successfully removed.
+landclaim.msg.mismatch=§c[!] Name mismatch.
+landclaim.msg.already_have=§e[System] §fYou already have a claim!
+landclaim.msg.claim_enabled=§a[Claim] §fMode §2ENABLED§f. Break §6two corner blocks§f.
+landclaim.msg.resize_enabled=§e[Claim] §fResizing enabled. Break two new blocks to update.
+
+
+
+message.error.id_objective_required=§cID and Objective are required!
+message.error.spawn_leaderboard=§cFailed to spawn leaderboard.
+message.leaderboard.added=§aLeaderboard added!
+message.error.hologram_empty=§cHologram text cannot be empty!
+message.error.invalid_coords=§cCoordinates must be valid numbers!
+message.error.spawn_hologram=§cFailed to spawn hologram: %s
+message.hologram.placed=§aPlaced hologram with %s lines!
+
+message.warp.error.empty_name=§cWarp name cannot be empty.
+message.warp.error.invalid_coords=§cInvalid coordinates provided.
+message.warp.created=§6[Admin] §aWarp created.
+message.warp.error.none_to_remove=§cNo warps available to remove.
+message.warp.deleted=§6[Admin] §aWarp deleted.
+message.warp.error.none_set=§cNo warps have been set.
+message.warp.empty=§8[§c!§8] §8No warps available.
+
+spawner.message.no_sellable=§c[!] No sellable items found in this spawner.
+spawner.message.sell_summary=§6--- SELL ALL SUMMARY ---
+spawner.message.sell_payout=§a+ %s §7(%s)
+spawner.message.total_sold=§fTotal items sold: §e%s
+spawner.message.in_use=§c[!] Someone else is currently using this spawner.
+spawner.message.protected=§c[!] Only the owner or an admin can access this spawner.
+spawner.message.added=§a[+] Added %s spawners to the stack!
+spawner.message.full=§c[!] This spawner stack is already full.
+spawner.message.limit=§c[!] Limit: 1 spawner of this type per 16 blocks.
+spawner.message.max_stack=§cMax stack size: %s
+spawner.message.multiple=§c[!] There are multiple spawners here. Use the UI to remove them.
+
+shop.spawner.message.invalid_quantity=§c[!] Invalid quantity entered.
+shop.spawner.message.cannot_afford=§cYou cannot afford %1x spawners! Need: %2
+shop.spawner.message.success=§aSuccessfully bought %1x %2!
+shop.spawner.message.error=§cError processing purchase.
+
+crate.message.no_crates=§cNo crates defined!
+crate.message.error.both_inputs=§cYou can only use an item OR a scoreboard, not both!
+crate.message.registered=§aCrate registered! Mode: §e%s §7(%s)
+crate.message.error.missing_input=§cMissing required input!
+crate.message.error.cost_nan=§cCost must be a number!
+crate.message.error.nan=§cOne or more inputs isn't a number!
+crate.message.error.weight_zero=§cWeight must be greater than 0!
+crate.message.added_item=§aAdded %s to %s!
+crate.message.removed_item=§aSuccessfully removed %s!
+crate.message.cost_updated=§aCost updated!
+crate.message.scoreboard_updated=§aScoreboard updated!
+crate.message.error.not_exists=§cCrate No Longer Exists!
+crate.message.error.empty=§cCrate doesn't contain anything!
+crate.message.contains_header=%s §rContains:\n§d--------------------§r\n
+crate.message.error.empty_interact=§cThis crate is empty!
+crate.message.error.missing_key=§cMissing Key!
+crate.message.error.insufficient_funds_custom=§cNot Enough §r%s!
+crate.message.won=§aYou Won: §r%s§r
+message.crates.empty=§cThis crate is empty!
+message.crates.not_enough=§cNot Enough §r%1!
+message.crates.won=§aYou Won: §r%1§rx§5%2 §8(%3/%4)
+
+message.ah.disabled=§cAH is disabled!
+message.ah.already_active=§c[AH] §r§cYou already have an active Auction House entity!
+message.ah.wrong_owner=§c[AH] §r§cThis AH belongs to someone else!
+message.ah.claimed=§a[AH] §rClaimed §e%s %s§a!
+message.ah.reclaimed=§e[AH] §rItem reclaimed.
+message.ah.own_listing=§eYou already own this! Switch to §fMy Listings §eto manage it.
+message.ah.currency_error=§cCurrency system error.
+message.ah.purchased=§a[AH] §rPurchased §f%s §afor §e%s %s§a!
+message.error.insufficient_funds=§cYou do not have enough funds to purchase this item!
+
+bazaar.error.market_empty=§cMarket stock empty!
+bazaar.error.insufficient_funds=§cStopped! Insufficient %s.
+bazaar.error.ran_out_items=§cStopped! You ran out of items.
+bazaar.success.processed=§aSUCCESS! §rProcessed %s units.
+bazaar.error.not_enough_list=§cNot enough items to list!
+bazaar.error.insufficient_order=§cInsufficient funds to order!
+bazaar.success.order_placed=§aORDER PLACED!
+bazaar.success.earnings_claimed=§aEarnings claimed!
+bazaar.success.order_cancelled=§eOrder cancelled.
+bazaar.error.disabled=§cBazaar is disabled!
+bazaar.error.already_active=§c[BAZAAR] §r§cYou already have an active Bazaar entity!
+bazaar.error.wrong_owner=§c[BAZAAR] §r§cThis Bazaar belongs to someone else!
+
+message.combat.in_combat=§cYou are in combat!
+message.combat.out_of_combat=§aYou are no longer in combat.
+message.combat.no_fly=§cYou can't fly in combat!
+message.anticheat.fly.warn.seconds=§c⚠ %1 Has been in the air for %2 seconds ⚠
+message.anticheat.fly.warn.minutes=§c⚠ %1 Has been in the air for %2 min %3 seconds ⚠
+message.anticheat.fly.warn.reason.height=  §7Reason: §fsustained height above ground
+message.anticheat.fly.warn.reason.hover=  §7Reason: §fmotionless hover detected
+anticheat.warning.killaura=§c⚠ %1$s is showing KillAura patterns: §f%2$s° ⚠
+anticheat.warning.cps=§c⚠ %1$s is showing CPS patterns: §f%2$s CPS ⚠
+anticheat.warning.reach=§c⚠ %1$s is showing reach patterns: §f%2$s blocks ⚠
+anticheat.kick.killaura=§cYou were kicked for suspicious combat patterns (KillAura).
+anticheat.kick.cps=§cYou were kicked for suspicious click speed (CPS).
+anticheat.kick.reach=§cYou were kicked for suspicious hit distance (reach).
+
+message.teleport.starting=§8[§b!§8] §8Teleporting in §f%1s§r§8. §cDon't move!
+message.teleport.cancelled=§cTeleport cancelled due to movement!
+message.teleport.success=§aTeleported to %1!
+message.teleport.bug=§cTeleport cancelled: Invalid spawn coordinates detected (minecraft bug). Please reset the world spawn point.
+message.teleport.combat=§cYou cant teleport in combat!
+message.teleport.active_vault=§cYou cant teleport with a active vault!
+message.home.combat=§cYou cant teleport in combat!
+message.home.active_vault=§cYou cant teleport with a active vault!
+message.home.no_homes=§cNo homes saved.
+message.home.limit=§cLimit reached!
+message.home.set_success=§aHome set!
+message.home.remove_success=§aRemoved.
+
+rtp.message.cooldown=§cRTP on cooldown: %1s
+rtp.message.vault_active=§cYou cant teleport with a active vault!
+rtp.message.in_combat=§cNo RTP in combat!
+rtp.message.nether_disabled=§cNether is Disabled!
+rtp.message.end_disabled=§cEnd is Disabled!
+rtp.message.nether_rtp_disabled=§cNether RTP is Disabled!
+rtp.message.end_rtp_disabled=§cEnd RTP is Disabled!
+rtp.message.searching=§7Searching... [%1]
+rtp.message.void_detected=§cVoid detected! Retrying...
+rtp.message.unsafe_terrain=§cUnsafe terrain detected. Retrying...
+rtp.message.safe_landing=§aSafe landing found!
+rtp.message.chunk_error=§eChunk sync error. Retrying...
+
+tpa.message.vault_active=§cYou cant teleport with a active vault!
+tpa.message.in_combat=§cYou cant teleport in combat!
+tpa.message.no_players=§cNo players online.
+tpa.message.request_pending=§eRequest already pending.
+tpa.message.request_sent=§aSent to %1
+tpa.message.request_received=§b%1 §esent you a TPA!
+tpa.message.request_expired=§cTPA request to %1 expired.
+tpa.message.expired_accept=§cThis request has expired.
+tpa.message.accepted=Accepted.
+tpa.message.offline=§cPlayer is no longer online.
+
+message.error.objective_not_exist=§cObjective doesn't exist!
+message.admin.bounty_removed=§6[Admin] §aBounty removed.
+message.bounty.claimed=§6[Bounty] §r§f%s §7has claimed the §6%s %s §7bounty on §c%s§7!
+message.bounty.location_tracking=§6[Admin] §7Location tracking is now 
+message.bounty.no_boards=§cAn admin must configure a bounty scoreboard first!
+message.bounty.minimum=§cMinimum Bounty: %1
+message.bounty.invalid_amount=§cInvalid amount!
+message.bounty.not_enough=§cYou don't have enough %1!
+message.bounty.data_issue=§c[!] Issue with data, reset bounties:\n%1\n §2should work now!
+message.bounty.broadcast=§c[!] §r§f%1 §7placed a §6%2 %3 §7bounty on §c%4§7!
+
+message.codes.none_found=§cNo codes found.
+message.codes.no_rewards_remove=§cNo rewards to remove.
+message.admin.added_sb_reward=§6[Admin] §aScoreboard added.
+message.admin.reward_removed=§6[Admin] §aReward removed.
+
+message.death.nothing_to_remove=§cNothing to remove!
+message.death.removed_success=§6[Admin] §aRemoved successfully.
+message.death.added_success=§6[Admin] §aAdded successfully.
+message.death.command_added=§6[Admin] §aCommand added.
+
+
+message.sellwand.not_owner=§c[!] You can only use the Sell Wand in your own claim!
+message.sellwand.success=§a[✔] §r§7Sold §f%1 §7items for §e%2 §7total!
+message.sellwand.empty=§c[!] No sellable items found.
+message.party.leader_left=§c§f%1 §cleft the game. §f%2 §eis now the party leader!
+message.pv.shulker_denied=§c[Vault] Shulker boxes cannot be stored here!
+message.pv.disabled=§cPrivate Vault is disabled!
+message.pv.already_active=§c[PRIVATE VAULT] §r§cYou already have an active Private Vault entity!
+message.pv.not_yours=§c[PRIVATE VAULT] §r§cThis Private Vault belongs to someone else!
+
+
+item.sh:admin_menu=Admin Menu
+item.sh:player_menu=Player Menu
+item.sh:helper_menu=Helper Menu
+item.sh:temp=temp
+item.sh:category=Category
+item.sh:high_to_low=High to Low
+item.sh:low_to_high=Low to High
+item.sh:my_listings=My Listings
+item.sh:newest=Newest
+item.sh:oldest=Oldest
+item.sh:previous_page=Previous Page
+item.sh:next_page=Next Page
+item.sh:search=Search
+item.sh:ui_num1=ui_num1
+item.sh:ui_num2=ui_num2
+item.sh:ui_num3=ui_num3
+item.sh:ui_num4=ui_num4
+item.sh:ui_num5=ui_num5
+item.sh:ui_num6=ui_num6
+item.sh:ui_num7=ui_num7
+item.sh:ui_num8=ui_num8
+item.sh:ui_num9=ui_num9
+item.sh:ui_num0=ui_num0
+item.sh:all_listings=all_listings
+item.sh:ah=Auction House
+item.sh:bazaar=Bazaar
+item.sh:sell_wand=Sell Wand
+item.sh:auto_hoe=§2Auto Hoe
+item.sh:miner_helmet=§6Miner Helmet§r\nHaste I\nNight Vision I
+item.sh:farmer_boots=§2Farmer Boots§r\nSpeed I\nSaturation I
+item.sh:pv=Private Vault
+
+entity.sh:inventory.name=inventory
+item.spawn_egg.entity.sh:inventory.name=Spawn inventory
+
+entity.sh:blank.name=blank
+item.spawn_egg.entity.sh:blank.name=Spawn blank
+
+entity.sh:spawner.name=spawner
+item.spawn_egg.entity.sh:spawner.name=Spawn spawner
+
+entity.sh:spawnerv2.name=spawnerv2
+item.spawn_egg.entity.sh:spawnerv2.name=Spawn spawnerv2
+
+entity.sh:item_display.name=item_display
+item.spawn_egg.entity.sh:item_display.name=Spawn item_display
+
+entity.sh:auction_house_ent.name=auction_house_ent
+item.spawn_egg.entity.sh:auction_house_ent.name=Spawn auction_house_ent
+
+entity.sh:bazaar_ent.name=bazaar_ent
+item.spawn_egg.entity.sh:bazaar_ent.name=Spawn bazaar_ent
+
+entity.sh:pv.name=pv
+item.spawn_egg.entity.sh:pv.name=Spawn pv
+
+entity.sh:item_nametags.name=Item_nameTags
+item.spawn_egg.entity.sh:item_nametags.name=Spawn Item_nameTags
+
+entity.sh:mob_stack.name=mob_stack
+item.spawn_egg.entity.sh:mob_stack.name=Spawn mob_stack
+
+tile.sh:inventory.name=inventory
+tile.sh:mob_spawner.name=Mob Spawner
+tile.sh:item_display.name=item_display
+tile.sh:newest.name=Newest
+tile.sh:oldest.name=Oldest
+tile.sh:previous_page.name=Previous Page
+tile.sh:search.name=Search
+
+ui.npcmenu.title=§4NPC's
+
+ui.itemsets.title=§1Item Sets
+
+message.itemsets.none_found=§cNo item sets found.
+message.itemsets.set_info=§bSet: §e%1 §7(%2 items)
+message.itemsets.item_info= §7- §f%1x %2 §8[%3]
+message.itemsets.enchant_info=  §d↳ %1 Enchantment(s)
+
+form.itemsets.add.id_label=ItemSet ID
+form.itemsets.add.id_placeholder=ocean_crate
+message.itemsets.invalid_id=§cInvalid ItemSet ID.
+message.itemsets.save_success=§aSaved item set "%1" successfully.
+
+form.itemsets.remove.title=Remove Item Set
+form.itemsets.remove.dropdown_label=Select an item set to delete:
+message.itemsets.none_to_remove=§cNo item sets to remove.
+message.itemsets.delete_success=§eDeleted item set "%1".
+
+ui.button.back=§8[ Back ]
+ui.admin.shop.title.buy=§eManage Buy Shop
+ui.admin.shop.title.sell=§eManage Sell Shop
+ui.admin.shop.btn.add=§aAdd Item
+ui.admin.shop.btn.upload=§bUpload ItemSet
+ui.admin.shop.btn.remove=§cRemove Item
+ui.admin.shop.btn.edit=§dEdit Item
+
+ui.admin.shop.upload.title=§bUpload ItemSet to Shop
+ui.admin.shop.form.select_set=Select ItemSet:
+ui.admin.shop.form.category=Category Name
+ui.admin.shop.form.price=Base Price
+ui.admin.shop.form.scoreboard=Currency Scoreboard
+ui.admin.shop.form.texture=Base Texture (Optional)
+ui.admin.shop.form.id=Item Identifier (Namespace:ID)
+ui.admin.shop.form.name=Display Name
+
+ui.admin.shop.edit.select.title=§dSelect Item to Edit
+ui.admin.shop.edit.item_btn=§6%s \n§7(%s)
+ui.admin.shop.edit.form.title=§eEditing: §f%s
+ui.admin.shop.remove.title=§cSelect Item to Remove
+ui.admin.shop.remove.item_btn=§c%s \n§7(%s)
+
+ui.admin.econ.title=§gViewable Balances
+ui.admin.econ.btn.add=§aAdd Display Objective
+ui.admin.econ.btn.remove=§cRemove Display Objective
+ui.admin.econ.add.title=§aTrack Balance Objective
+ui.admin.econ.form.scoreboard=Select Scoreboard Objective:
+ui.admin.econ.remove.title=§cUntrack Balance Objective
+ui.admin.econ.remove.select=Select Objective to Remove:
+
+ui.admin.shop.wipe.title=§4WIPE ALL SHOPS?
+ui.admin.shop.wipe.body=§cWarning! This will completely clear all items from both the Buy and Sell shops. This action cannot be undone.
+ui.admin.shop.wipe.btn.confirm=§4Yes, Wipe Everything
+ui.admin.shop.wipe.btn.cancel=§fCancel
+ui.admin.shop.premade.title=§6Load Pre-Built Shop?
+ui.admin.shop.premade.body=§7This will generate a pre-configured shop layout utilizing your item templates and map prices to 'Money'.
+ui.admin.shop.premade.btn.confirm=§aLoad Setup
+ui.admin.shop.premade.btn.cancel=§fCancel
+
+message.admin.shop.invalid_price=§cInvalid price provided. Must be a positive integer.
+message.admin.shop.upload.success=§aSuccessfully uploaded §e%s §aitems into the shop registry.
+message.admin.shop.no_items=§cThere are currently no items configured in this shop category.
+message.admin.shop.invalid_data=§cOperation failed. Ensure ID contains ':' and price is a valid number.
+message.admin.shop.add.success=§aItem successfully added to the shop catalog.
+message.admin.shop.edit.success=§dShop item modifications saved successfully.
+message.admin.shop.remove.success=§eItem has been successfully removed from the shop.
+message.admin.econ.empty_input=§cInvalid selection. Objective data structure was empty.
+message.admin.econ.already_exists=§cThis objective is already tracked on the balances menu.
+message.admin.econ.add.success=§aNow tracking currency balance from scoreboard: §e%s
+message.admin.econ.none_to_remove=§cThere are no managed balances available to untrack.
+message.admin.econ.remove.success=§eStopped tracking currency balance: §c%s
+message.admin.shop.wipe.success=§eBoth shop item inventories have been completely cleared.
+message.admin.shop.premade.success=§aPre-built default item catalogs populated successfully!
+message.admin.corner_1_set=§a[Admin] §fCorner 1 set!
+message.admin.zone_created=§a[Admin] §fZone %1 created!
+
+ui.market.admin.upload.title=§eUpload to %s Shop
+ui.market.admin.upload.select_set=Select ItemSet:
+ui.market.admin.upload.category=Category Name
+ui.market.admin.upload.price=Base Price
+ui.market.admin.upload.scoreboard=Currency Scoreboard
+ui.market.admin.upload.texture=Base Texture (Optional)
+
+ui.market.main.title=§6Shop
+ui.market.welcome=§eWelcome to the Shop!
+ui.market.balance.header=\n§a§lCurrent Balances:\n
+ui.market.balance.header_your=§a§lYour Balances:\n
+ui.market.balance.entry=§b%s§7: §e%s\n
+ui.market.balance.none=§cNo active balances found.
+ui.market.main.buy=§aBuy Items
+ui.market.main.sell=§cSell Items
+ui.market.main.trade=§dTrade Currency
+
+ui.market.buy.title=§aBuy Categories
+ui.market.sell.title=§cSell Categories
+ui.market.select_category=§7Choose a category to browse:
+ui.market.category.btn=§e%s
+ui.market.category.title=§l§e%s
+ui.market.choose_item=§7Choose an item to manage.
+ui.market.item.btn=§f%s\n%s
+ui.market.item.label=§7Item:
+ui.market.selling.label=§7Selling:
+
+ui.market.buy.confirm_title=§aConfirm Purchase
+ui.market.buy.quantity_btn=§aBuy %s\n§8(Cost: §e%s %s§8)
+ui.market.sell.confirm_title=§cConfirm Sale
+ui.market.sell.quantity_btn=§cSell %s\n§8(Yields: §e%s %s§8)
+ui.market.sell.all_btn=§4Sell All
+
+ui.market.trade.select_currency=§dSelect Currency
+ui.market.trade.prompt_currency=§7Choose which currency you would like to trade:
+ui.market.trade.currency_btn=§b%s
+ui.market.trade.select_player=§bSelect Player
+ui.market.trade.prompt_player=§7Choose who you want to send §e%s§7 to:
+ui.market.trade.player_btn=§a%s
+ui.market.trade.amount.title=§6Trade Amount: %s
+ui.market.trade.amount.field=§7Send to %s\n§8(Your Balance: %s)\n§7Amount:
+
+message.admin.shop.no_sets=§cNo Item Sets found. Create one first.
+message.market.admin.upload.success=§aSuccessfully uploaded §e%s §aitems into the §b%s §ashop.
+message.market.economy_disabled=§cThe economy/shop module is currently disabled.
+message.market.no_tradeables=§cNo currencies are currently configured for trading.
+message.market.no_players=§cNo other players are currently online to trade with.
+message.market.invalid_number=§cInvalid amount. Must be a positive integer.
+message.market.insufficient_funds=§cYou do not have enough funds to complete this trade.
+message.market.insufficient_funds_msg=§cYou do not have enough funds for this purchase!
+message.market.trade.sent=§aSent §e%s %s §ato §b%s§a.
+message.market.trade.received=§aReceived §e%s %s §afrom §b%s§a!
+message.market.no_items=§cThere are currently no items in this shop.
+message.market.invalid_price=§cInvalid price provided. Must be a positive integer.
+message.market.buy.success=§aSuccessfully bought §e%s §fx §e%s §afor §g%s %s§a!
+message.market.buy.partial_full=§aBought §e%s §fx §e%s§a. Inventory was full, refunded §g%s %s §afor §c%s §afailed items.
+message.market.buy.completely_full=§cYour inventory is full! Purchase cancelled. Refunded §g%s %s§c.
+message.market.sell.nothing=§cYou do not have any of this item to sell!
+message.market.sell.not_enough=§cYou don't have enough of this item in your inventory!
+message.market.sell.success=§aSuccessfully sold §e%s §fx §e%s §afor §g%s %s§a!
+
+ui.npcs.title=§5NPC
+
+ui.npc.add.title=§eAdd Menu NPC
+ui.npc.add.form.id=NPC ID (Unique Name)
+ui.npc.add.form.x=X Coordinate (Blank for self)
+ui.npc.add.form.y=Y Coordinate (Blank for self)
+ui.npc.add.form.z=Z Coordinate (Blank for self)
+ui.npc.add.form.menu=Select Target Menu Interaction
+ui.npc.add.form.skin=Select NPC Skin Texture Variant
+ui.npc.remove.title=§cRemove Menu NPC
+ui.npc.remove.select=Select Registered NPC to Delete:
+
+message.npc.list.none=§cNo Menu NPCs currently exist in database records.
+message.npc.list.header=§a--- Registered Menu NPCs ---
+message.npc.list.entry=§7ID: §f%s §7| Menu: §f%s §7| Coords: §f%s, %s, %s §7| Skin: §f%s
+message.npc.add.missing_id=§cOperation cancelled. You must specify a unique NPC ID string.
+message.npc.add.already_exists=§cFailed creation: NPC ID '%s' is already taken in global properties.
+message.npc.add.success=§aSuccessfully deployed Menu NPC '%s' at target location %s, %s, %s.
+message.npc.remove.none=§cThere are no configured Menu NPCs registered to remove.
+message.npc.remove.success=§ePermanently unregistered and deleted Menu NPC database keys for '%s'.
+message.npc.menu.missing=§cSystem link error: Target menu UI binding is either missing or disabled.
+
+ui.ban.online_duration.title=Set Ban Duration
+
+ui.ban.duration_field=Ban Time in Minutes\n(Leave blank for permanent ban)
+ui.ban.duration_field_target=Ban Time in Minutes for %s\n(Leave blank for permanent ban)
+ui.ban.duration_placeholder=e.g., 60
+
+
+command.general.no_permission=§cYou do not have permission to use this command!
+command.general.no_player_found=§cNo player found.
+command.general.no_player_named=§cNo player found with that name.
+command.general.multiple_players_found=§cMultiple matches found.
+command.general.no_player_matching=§cNo player found matching "%1$s".
+command.general.multiple_players_matching=§cMultiple players found matching "%1$s". Please be more specific.
+command.general.scoreboard_not_found=§cScoreboard "%1$s" not found.
+command.general.currency_not_found=§cCurrency "%1$s" not found.
+command.general.specify_player_name=§cPlease specify a player name.
+command.general.combat_teleport_blocked=§c§lYou cant teleport in combat!
+command.general.vault_teleport_blocked=§c§lYou cant teleport with a active vault!
+command.general.inventory_full=§cYour inventory is full!
+message.general.countdown=§l§3%1$ss
+
+message.admin_menu.already_have=§cYou already have the Admin Menu in your inventory!
+message.admin_menu.received=§aYou have received the §bAdmin Menu§a!
+
+command.ah.disabled=§cAH is disabled!
+command.ah.already_active=§c§l[AH] §r§cYou already have an active AH entity!
+message.ah_item.already_have=§cYou already have the AH in your inventory!
+message.ah_item.received=§aYou have received the §6AH§a!
+
+command.ahsell.no_item_held=§cYou must be holding an item!
+command.ahsell.cannot_list_shulker=§cYou cannot put shulkers on AH
+command.ahsell.cannot_list_spawner=§cYou cannot put custom spawners on AH
+command.ahsell.modded_not_allowed=§cModded items cannot be listed.
+command.ahsell.limit_reached=§cLimit of %1$s listings reached!
+command.ahsell.invalid_amount=§cInvalid amount.
+command.ahsell.db_error_silent=§cFailed to list item: Internal server database error (Silent failure detected).
+command.ahsell.db_error_exception=§cFailed to list item: Database exception.
+message.ahsell.listed=§aListed §f%1$sx %2$s §afor §e%3$s %4$s§a!
+
+command.back.disabled=§c§l/back is disabled!
+command.back.no_death_location=§cNo death location found.
+command.back.location_expired=§cYour last death location has expired (10m).
+command.back.teleport_cancelled=§cTeleport cancelled due to movement!
+message.back.teleporting=§8[§b!§8] §8Teleporting to death point in §f%1$ss§8. §cDon't move!
+message.back.teleported=§aTeleported to your last death location!
+
+message.balance.result=§a%1$s has §f%2$s§a %3$s.
+
+command.baltop.no_scores=§cNo scores found on this board.
+message.baltop.header=§b--- §lTOP 10 %1$s §r§b---
+message.baltop.entry=§e%1$s. §f%2$s: §a%3$s
+
+command.ban.no_target_found=§cNo valid target found.
+message.admin.banned_player_permanent=§aBanned §f%1$s §apermanently.
+message.admin.banned_player_temporary=§aBanned §f%1$s §afor §f%2$s §aminutes.
+message.ban.kick=§cYou have been banned from this server.
+message.ban.join_kick=§cYou are banned from this server!
+command.unban.specify_name=§cPlease specify a player name.
+message.admin.unbanned_player=§aUnbanned §f%1$s§a.
+message.admin.unbanned_not_listed=§e%1$s §7was not found in the ban list, but their ban flag has been cleared.
+
+command.bazaar.disabled=§cBazaar is disabled!
+command.bazaar.already_active=§c§l[BAZAAR] §r§cYou already have an active Bazaar entity!
+message.bazaar_item.already_have=§cYou already have the Bazaar in your inventory!
+message.bazaar_item.received=§aYou have received the §6Bazaar§a!
+
+command.buy.invalid_amount=§c[!] Please enter a valid amount.
+command.buy.item_unavailable=§c[!] Item "%1$s" is not available in the shop.
+command.buy.insufficient_funds=§c[!] Insufficient funds! Need %1$s %2$s.
+command.buy.no_space=§c[!] No space! Full refund of %1$s issued.
+message.buy.refunded=§6[!] Inventory full: Refunded %1$s %2$s
+message.buy.success=§a[✔] Bought %1$sx %2$s for %3$s %4$s!
+
+command.code.invalid=§c[!] Invalid code. Please try again.
+command.code.already_redeemed=§c[!] You have already redeemed this code!
+message.code.redeemed_header=§a§l[!]§r §7Code redeemed! You received:
+message.code.item_line=§7- §b%1$sx §f%2$s
+message.code.scoreboard_line=§7- §a+%1$s §f%2$s
+
+command.crate.empty=§cThis crate is empty!
+command.crate.not_enough_currency=§cNot Enough §r%1$s!
+command.crate.not_found=§cCrate not found.
+message.crate.won=§aYou Won: §r§l%1$s§rx§5%2$s §8(%3$s/%4$s)
+message.crate.stopped_after=§eStopped after opening %1$s crates.
+
+command.helper.disabled=§cPlayer menu is disabled!
+command.helper.no_permission=§c§lYou need admin or helper to use this!
+command.helper_item.disabled=§cHelper menu is disabled!
+message.helper_menu.already_have=§cYou already have the Helper Menu in your inventory!
+message.helper_menu.received=§aYou have received the §eHelper Menu§a!
+
+command.home.not_found=§cHome "%1$s" not found.
+
+command.invsee.specify_name=§cPlease specify a player name.
+
+command.menu.disabled=§cPlayer menu is disabled!
+message.player_menu.already_have=§cYou already have the Player Menu in your inventory!
+message.player_menu.received=§aYou have received the §ePlayer Menu§a!
+
+command.order.invalid_usage=§cInvalid Command Usage.
+command.order.not_enough_items=§cNot enough items to list!
+command.order.insufficient_funds=§cInsufficient funds to order!
+message.order.placed=§a§lORDER PLACED!
+
+command.party.already_in_party=§cYou are already in a party!
+command.party.specify_invite=§cPlease specify a player to invite.
+command.party.not_leader=§cYou must be the party leader to invite players.
+command.party.player_offline=§cPlayer not found or offline.
+command.party.target_already_in_party=§cThat player is already in a party.
+command.party.specify_leader=§cPlease specify the party leader's name.
+command.party.already_in_party_leave_first=§cYou are already in a party. Leave it first.
+command.party.no_pending_invite=§cYou do not have a pending invite from that player.
+command.party.leader_party_gone=§cThat party no longer exists.
+command.party.not_in_party=§cYou are not in a party.
+command.party.specify_message=§cPlease provide a message to send.
+message.party.created=§aParty created successfully!
+message.party.invited=§aInvited §f%1$s §ato your party.
+message.party.invite_received=§eYou have been invited to §f%1$s§e's party! Type §b/party accept "%2$s" §eto join.
+message.party.joined=§aYou joined §f%1$s§a's party!
+message.party.member_joined=§a§f%1$s §ahas joined the party!
+message.party.left_new_leader=§eYou left the party. §f%1$s §eis the new leader.
+message.party.member_left_new_leader=§c§f%1$s §cleft the party. §f%2$s §eis now the party leader!
+message.party.disbanded=§cYou disbanded the party.
+message.party.left=§eYou left the party.
+message.party.member_left=§c§f%1$s §cleft the party.
+message.party.chat_member=§d[Party] §f%1$s: §7%2$s
+message.party.chat_staff=§7[Party] §f%1$s: §7%2$s
+
+command.pay.cannot_pay_self=§cYou cannot pay yourself.
+command.pay.not_tradeable=§cThis currency is not tradeable.
+command.pay.invalid_amount=§cEnter a valid positive amount.
+command.pay.insufficient_funds=§cInsufficient funds.
+message.pay.sent=§a§lSENT! §r§7You sent §e%1$s %2$s §7to §f%3$s§7.
+message.pay.received=§a§lRECEIVED! §r§f%1$s §7sent you §e%2$s %3$s§7.
+
+command.pv.disabled=§cPrivate Vault is disabled!
+command.pv.already_active=§c§l[PRIVATE VAULT] §r§cYou already have an active Private Vault entity!
+message.pv_item.already_have=§cYou already have the Private Vault in your inventory!
+message.pv_item.received=§aYou have received the §6Private Vault§a!
+
+message.resetcrates.success=§aCrate data has been successfully reset.
+message.resetspawners.success=§aSpawner data has been successfully reset.
+
+command.rtp.on_cooldown=§c§lRTP on cooldown: %1$ss
+command.rtp.no_combat=§c§lNo RTP in combat!
+command.rtp.nether_disabled=§c§lNether is Disabled!
+command.rtp.end_disabled=§c§lEnd is Disabled!
+command.rtp.nether_rtp_disabled=§c§lNether RTP is Disabled!
+command.rtp.end_rtp_disabled=§c§lEnd RTP is Disabled!
+message.rtp.searching=§7Searching... [%1$s]
+message.rtp.void_retry=§cVoid detected! Retrying...
+message.rtp.unsafe_retry=§cUnsafe terrain detected. Retrying...
+message.rtp.chunk_error_retry=§eChunk sync error. Retrying...
+message.rtp.success=§aSafe landing found!
+
+command.sellall.none_found=§c[!] No sellable items found.
+message.sellall.summary_header=§6--- SUMMARY ---
+message.sellall.line=§a+ %1$s §7(%2$s)
+message.sellall.total=§fTotal items: §e%1$s
+command.sellhand.not_holding=§c[!] You aren't holding anything!
+command.sellhand.not_sellable=§c[!] This item cannot be sold.
+message.sellhand.sold=§a[✔] Sold %1$sx %2$s for %3$s %4$s!
+
+command.shop.disabled=§cEconomy is disabled
+message.shop_item.already_have=§cYou already have the shop item!
+message.shop_item.received=§aYou have received the §eShop§a item!
+
+
+command.spawner.inventory_full=§c[!] Your inventory is completely full!
+message.spawner.given_partial=§a[✔] Given %1$sx Spawners. Inventory was full for %2$sx!
+message.spawner.given_full=§a[✔] Successfully gave %1$sx custom spawners.
+
+command.spystop.not_spying=§eYou are not currently spying on anyone.
+message.spystop.stopped=§aStopped spying.
+
+command.staffchat.no_permission=§cYou dont have permission for this command!
+command.staffchat.empty_message=§cYou must provide a message.
+message.staffchat.broadcast=§6[Sc] %1$s: §f%2$s
+
+message.toggleui.enabled=§6[Admin] §fCustom UI Tag §7is now §aEnabled
+message.toggleui.disabled=§6[Admin] §fCustom UI Tag §7is now §cDisabled
+
+command.tpa.disabled=§cTPA is disabled!
+command.tpa.cannot_self=§cYou cannot TPA to yourself!
+command.tpahere.specify_player=§cPlease specify a player.
+message.tpa.already_pending=§eRequest already pending to %1$s.
+message.tpa.sent=§aTPA request sent to §f%1$s§a.
+message.tpa.received=§6%1$s §esent you a TPA request. Type §f/tpacct §eto accept.
+message.tpahere.sent=§aTPA-Here request sent to §f%1$s§a.
+message.tpahere.received=§6%1$s §ewants you to teleport to them. Type §f/tpacct §eto accept.
+command.tpacct.no_requests=§cYou have no pending requests.
+command.tpacct.requester_offline=§cRequester is no longer online.
+command.tpacct.cancelled_movement=§cTeleport cancelled: movement detected!
+message.tpacct.teleporting_mover=§aTeleporting to §f%1$s§a in §f§l%2$ss§r. Don't move!
+message.tpacct.teleporting_anchor=§aTeleporting §f%1$s§a to you in §f§l%2$ss§r. Don't move!
+message.tpacct.teleported=§aTeleported to §f%1$s§a.
+message.tpacct.arrived=§aTeleport request accepted. §f%1$s§a has arrived.
+
+command.warp.none_available=§8[§c!§8] §8No warps available.
+command.warp.invalid=§cInvalid warp! Available: §f%1$s
+
+command.worth.not_holding=§cYou aren't holding anything!
+command.worth.not_sellable=§cThat item is not sellable.
+message.worth.result=§a%1$sx §f%2$s §7is worth §e%3$s §6%4$s§7.
+
+
+ui.toggles.label.menuCommands=Menu Commands
+ui.toggles.label.menuItemCommands=Menu Item Commands
+
+command.menu_commands.disabled=§cMenu commands are currently disabled.
+command.menu_item_commands.disabled=§cMenu item commands are currently disabled.
+
+message.border.hit=§cWorld Border! (%s blocks)
+
+message.quest.complete=§aQuest Complete: %1$s!§r
+message.quest.progress=§e%1$s progress: %2$s / %3$s§r
+
+ui.player.menu.quests=§eQuests
+ui.quests.title=§5Quests
+quest.title.complete=§aQuest Complete!
+
+ui.quests.menu.body=Create, edit, and manage available player quests.
+ui.quests.menu.button.new=Create New Quest
+ui.quests.menu.button.edit=Edit Existing Quests
+ui.quests.menu.button.list=View All Quests
+ui.quests.menu.button.remove=Delete Quests
+
+ui.quests.add.title=New Quest
+ui.quests.add.name_label=Quest Name
+ui.quests.add.name_placeholder=e.g., Zombie Slayer
+ui.quests.add.type_label=Quest Type
+ui.quests.add.tracked_label=Target ID (Entity/Block)
+ui.quests.add.tracked_placeholder=e.g., minecraft:zombie (N/A for Travel)
+ui.quests.add.amount_label=Goal Amount
+ui.quests.add.amount_placeholder=e.g., 10
+
+ui.quests.edit.title=§lEdit Quests
+ui.quests.edit.none_found=§cNo quests found. Please create one first.
+
+ui.quests.admin.id=Quest ID
+ui.quests.admin.id.subtext=e.g., monsterHunter_1
+ui.quests.admin.name=Display Name
+ui.quests.admin.name.subtext=e.g., Monster Hunter I
+ui.quests.admin.type=Quest Type
+ui.quests.admin.tracked=Tracked Entity/Block ID
+ui.quests.admin.tracked.subtext=e.g., minecraft:zombie (Leave blank for Travel/Generic)
+ui.quests.admin.amount=Goal Amount
+ui.quests.admin.amount.subtext=e.g., 5
+
+ui.quests.admin.rewardItemMode=Item Reward Type
+ui.quests.admin.rewardItem=Reward Item ID
+ui.quests.admin.rewardItem.subtext=e.g., minecraft:diamond (Requires "Manual Item" mode)
+ui.quests.admin.rewardItemAmount=Reward Item Quantity
+ui.quests.admin.rewardItemAmount.subtext=Amount to give (Requires "Manual Item" mode)
+ui.quests.admin.rewardItemSet=Reward Item Set
+ui.quests.admin.rewardScoreboard=Reward Scoreboard
+ui.quests.admin.rewardScoreboardAmount=Reward Scoreboard Amount
+ui.quests.admin.rewardScoreboardAmount.subtext=Points to award upon completion
+
+ui.quests.manage.button.add_item=Add Reward Item
+ui.quests.manage.button.load_item_set=Load Item Set
+ui.quests.manage.button.remove_items=Remove Reward Item(s)
+ui.quests.manage.button.edit_details=Edit Quest Details
+ui.quests.manage.button.edit_scoreboard=Edit Scoreboard Reward
+
+ui.quests.manage.add.item_id_label=Reward Item ID
+ui.quests.manage.add.item_id_placeholder=e.g., minecraft:diamond
+ui.quests.manage.add.cover_name_label=Custom Display Name (Optional)
+ui.quests.manage.add.cover_name_placeholder=Overrides default item name in menus
+ui.quests.manage.add.quantity_label=Quantity
+ui.quests.manage.add.quantity_placeholder=e.g., 5
+
+ui.quests.manage.loadSet.title=Select an Item Set to Load
+ui.quests.manage.removeItems.title=Select a Reward Item to Remove
+
+ui.quests.manage.editDetails.type_label=Quest Type
+ui.quests.manage.editDetails.tracked_label=Target ID
+ui.quests.manage.editDetails.amount_label=Goal Amount
+
+ui.quests.manage.editScoreboard.scoreboard_label=Scoreboard Objective
+ui.quests.manage.editScoreboard.amount_label=Reward Amount
+
+ui.quests.list.title=§lQuest Directory
+ui.quests.list.empty=§7No quests have been created yet.
+ui.quests.list.items_header=\n§eReward Items:
+ui.quests.list.none= §8• §7None
+
+ui.quests.remove.title=§lDelete a Quest
+
+ui.admin.button.logs=§cServer Logs
+ui.logs.button.moderation=§4Moderation Logs
+ui.logs.button.general=§3General Logs
+ui.logs.button.player=§2Player Logs
+
+ui.logs.button.bundle=§cBundle
+ui.logs.button.dupe=§cDupe
+ui.logs.button.bannedItems=§cBanned Items
+ui.logs.button.fly=§cFly
+ui.logs.button.killAura=§cKill Aura
+ui.logs.button.antiReach=§cAnti Reach
+
+ui.logs.button.joins=§2Joins
+ui.logs.button.leaves=§cLeaves
+ui.logs.button.kills=§4Kills
+
+ui.logs.title.player=§2%1 Logs
+
+ui.logs.body.empty=§4No log entries found.
+ui.logs.entry.join=%s joined on %s
+ui.logs.entry.leave=%s left on %s
+ui.logs.entry.kill=%s killed %s on %s
+ui.logs.entry.bundle=Bundle in hopper %1$s - %2$s
+ui.logs.entry.antiDupe=%1$s %2$s - %3$s
+ui.logs.entry.bannedItem=%1$s %2$s - %3$s
+ui.logs.entry.fly=%1$s - %2$s
+ui.logs.entry.killAura=%1$s - %2$s
+ui.logs.entry.antiReach=%1$s - %2$s
+ui.logs.warning=§4Logs get removed after 24 hours
+
+message.admin.allow_area_mode_enabled=§aAllow Area mode enabled! Break two blocks to mark opposite corners of the area.
+message.admin.allow_area_corner_1_set=§aFirst corner set! Break another block to set the second corner.
+message.admin.allow_area_created=§aAllow Area '%1$s' has been created!
+message.admin.allow_area_deleted=§cAllow Area '%1$s' has been deleted.
+
+message.claim.outside_allow_area=§cYou can only place a land claim inside a designated claim area.
+
+ui.adminClaim.allowArea=§aAllow Areas
+
+ui.allowArea.title=§aAllow Areas
+ui.allowArea.new=§aCreate New Allow Area
+ui.allowArea.manage=§3Manage Allow Areas
+
+ui.admin.allowAreas.title=§3Manage Allow Areas
+ui.admin.allowAreas.empty=§7No allow areas have been created yet. Land claims are currently unrestricted — create an area to limit where players can claim.
+ui.admin.allowAreas.button.area=%1$s\n§8Size: %2$s blocks
+ui.admin.allowAreas.manage.body=§7Size: §f%1$s blocks\n§7Corner 1: §f%2$s, %3$s\n§7Corner 2: §f%4$s, %5$s
+ui.admin.allowAreas.manage.button.delete=§cDelete Allow Area
+
+ui.admin.create_allow_area.title=Name This Allow Area
+ui.admin.create_allow_area.label=Area Name
+
+ui.player.menu.report=§4Report
+ui.player.report.bug=§2Bug Report
+ui.player.report.player=§cPlayer Report
+ui.report.maxchar=§cWarning§f Each textfield can only have 100 charecters (minecraft limit)
+ui.report.bug.title=Report Title
+ui.report.invalidTitle=§cInvalid report title
+ui.report.invalidReport=§cInvalid report text
+ui.report.player.select=Choose Player
+ui.report.bug.textfield=Spawn Bug
+ui.report.player.textfield=Hacker
+
+ui.report.none_found=§cNo reports found.
+ui.report.list_entry=%1$s\n§7By: %2$s
+ui.button.delete_report=§cDelete Report
+
+ui.report.body.title=§bTitle: §f%1$s\n
+ui.report.body.reporter=§bReporter: §f%1$s §7(%2$s)\n\n
+ui.report.body.target=§cReported Player: §f%1$s\n\n
+ui.report.body.content=§bReport:\n§f%1$s
+
+message.report.deleted_success=§aSuccessfully deleted report: %1$s
+
+ui.admin.button.reports=§4Reports
+
+ui.player.report.bug=§2Bug Reports
+ui.player.report.player=§cPlayer Reports
+
+command.trade.disabled=§cTrading is disabled!
+command.trade.cannot_self=§cYou cannot trade with yourself!
+command.trade.already_trading=§cYou or that player are already in a trade.
+command.tradeaccept.no_requests=§cYou have no pending trade requests.
+command.tradeaccept.requester_offline=§cThat player is no longer online.
+command.tradedecline.no_requests=§cYou have no pending trade requests.
+command.tradecancel.you_cancelled=§cYou cancelled the trade.
+command.tradecancel.cancelled=§aTrade cancelled.
+command.tradecancel.request_cancelled=§aCancelled your trade request to %1$s.
+command.tradecancel.nothing_to_cancel=§cYou have no active trade or pending request to cancel.
+message.trade.already_pending=§eRequest already pending to %1$s.
+message.trade.sent=§aTrade request sent to §f%1$s§a.
+message.trade.received=§b%1$s §esent you a trade request! Use /tradeaccept to accept.
+message.trade.expired=§cTrade request to %1$s expired.
+message.trade.started=§aA trade table has appeared for you and %1$s - right-click it to begin!
+message.trade.complete=§a§lTrade complete!
+message.trade.not_yours=§cThat isn't your trade table.
+message.trade.walked_away=§cYou wandered too far from your trade table - the trade was cancelled and your items were returned.
+message.trade.partner_disconnected=§cYour trade partner disconnected - the trade was cancelled and your items were returned.
+message.trade.ended=§cThe trade ended and your items were returned.
+message.tradecancel.partner_cancelled=§cYour trade partner cancelled - your items were returned.
+message.tradedecline.declined=§aDeclined the trade request from %1$s.
+message.tradedecline.was_declined=§c%1$s declined your trade request.
+trade.menu.main.title=Trade
+trade.menu.main.button.send=§eSend Request
+trade.menu.main.button.accept=§dIncoming Requests§r\n§8(%1$s) Pending
+trade.menu.send.title=Trade - Choose a Player
+trade.menu.accept.title=Incoming Trade Requests
+trade.menu.accept.button.player=§a%1$s
+trade.menu.action.title=Request from %1$s
+trade.menu.action.accept=§aAccept
+trade.menu.action.decline=§cDecline
+trade.message.no_players=§cNo other players online.
+ui.player.menu.trade=Trade
+ui.toggles.label.playerTrading=Player Trading
+
+message.resetdata=§cAll data has been reset, please restart world/server/realm
+

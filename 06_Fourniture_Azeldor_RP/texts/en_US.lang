@@ -1,0 +1,55 @@
+﻿## AZELDOR - Entity names (English)
+entity.azeldor:thyrael_statue.name=Thyrael Statue
+entity.azeldor:thyrael_statue_big.name=Thyrael Statue (Colossal)
+item.spawn_egg.entity.azeldor:thyrael_statue.name=Thyrael Statue Spawn Egg
+item.spawn_egg.entity.azeldor:thyrael_statue_big.name=Thyrael Statue (Colossal) Spawn Egg
+
+
+## ========== CUSTOM AZELDOR BLOCKS (v1.2.0) ==========
+tile.azeldor:pave_pierre_vieillissant.name=Aged Cobblestone
+tile.azeldor:pierre_naturelle_moussu.name=Mossy Stone
+tile.azeldor:pierre_naturelle_vieillissant.name=Aged Stone
+tile.azeldor:pierre_taillee_neuf.name=Cut Stone
+tile.azeldor:pierre_taillee_moussu.name=Mossy Cut Stone
+tile.azeldor:pierre_taillee_craquele.name=Cracked Cut Stone
+tile.azeldor:pierre_taillee_vieillissant.name=Aged Cut Stone
+tile.azeldor:pierre_polie_moussu.name=Mossy Polished Stone
+tile.azeldor:pierre_polie_craquele.name=Cracked Polished Stone
+tile.azeldor:pierre_polie_vieillissant.name=Aged Polished Stone
+tile.azeldor:pierre_ciselee_neuf.name=Chiseled Stone
+tile.azeldor:pierre_ciselee_moussu.name=Mossy Chiseled Stone
+tile.azeldor:pierre_ciselee_craquele.name=Cracked Chiseled Stone
+tile.azeldor:pierre_ciselee_vieillissant.name=Aged Chiseled Stone
+tile.azeldor:brique_pierre_vieillissant.name=Aged Stone Bricks
+tile.azeldor:tuile_pierre_neuf.name=Stone Tiles
+tile.azeldor:tuile_pierre_moussu.name=Mossy Stone Tiles
+tile.azeldor:tuile_pierre_craquele.name=Cracked Stone Tiles
+tile.azeldor:tuile_pierre_vieillissant.name=Aged Stone Tiles
+tile.azeldor:pierre_lisse_neuf.name=Smooth Stone Block
+tile.azeldor:pierre_lisse_craquele.name=Cracked Smooth Stone
+tile.azeldor:pilier_pierre_neuf.name=Stone Pillar
+tile.azeldor:pilier_pierre_moussu.name=Mossy Stone Pillar
+tile.azeldor:pilier_pierre_craquele.name=Cracked Stone Pillar
+tile.azeldor:pilier_pierre_vieillissant.name=Aged Stone Pillar
+tile.azeldor:pierre_sculptee_moussu.name=Mossy Carved Stone
+tile.azeldor:pierre_sculptee_vieillissant.name=Aged Carved Stone
+tile.azeldor:pierre_sculptee_craquele.name=Cracked Carved Stone
+tile.azeldor:pierre_lisse_vieillissant.name=Aged Smooth Stone
+tile.azeldor:damier_pierre_neuf.name=Stone Checkerboard
+tile.azeldor:bossage_pierre_neuf.name=Rusticated Stone
+tile.azeldor:bossage_pierre_moussu.name=Mossy Rusticated Stone
+tile.azeldor:bossage_pierre_vieillissant.name=Aged Rusticated Stone
+
+## Mossy Thyrael Statue
+entity.azeldor:thyrael_statue_mossy.name=Mossy Thyrael Statue
+item.spawn_egg.entity.azeldor:thyrael_statue_mossy.name=Mossy Thyrael Statue Spawn Egg
+
+## Snow Thyrael Statue
+entity.azeldor:thyrael_statue_snow.name=Snow Thyrael Statue
+item.spawn_egg.entity.azeldor:thyrael_statue_snow.name=Snow Thyrael Statue Spawn Egg
+
+## Custom Disc
+item.record_blocks.desc=Misty Mountains Piano
+
+## Relic Sword
+item.azeldor:relic_sword.name=§6Azeldor Relic Sword

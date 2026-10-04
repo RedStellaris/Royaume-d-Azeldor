@@ -1,0 +1,49 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "sh:pv",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:persistent": {},
+			"minecraft:breathable": {
+				"breathes_water": true
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"deals_damage": false
+				}
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 0.75,
+				"height": 0.75
+			},
+			"minecraft:inventory": {
+				"container_type": "container",
+				"inventory_size": 58
+			},
+			"minecraft:nameable": {
+				"always_show": true
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {
+					"max_distance": 6
+				}
+			}
+		}
+	}
+}

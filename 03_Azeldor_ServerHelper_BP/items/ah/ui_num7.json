@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sh:ui_num7",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:icon": "sh_ui_num7"
+		}
+	}
+}

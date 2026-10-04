@@ -1,0 +1,101 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sh:npc",
+			"materials": {
+				"default": "npc"
+			},
+			"textures": {
+				"npc_0": "textures/entity/npc/npc_1",
+				"npc_1": "textures/entity/npc/npc_2",
+				"npc_2": "textures/entity/npc/npc_3",
+				"npc_3": "textures/entity/npc/npc_4",
+				"npc_4": "textures/entity/npc/npc_5",
+				"npc_5": "textures/entity/npc/npc_6",
+				"npc_6": "textures/entity/npc/npc_7",
+				"npc_7": "textures/entity/npc/npc_8",
+				"npc_8": "textures/entity/npc/npc_9",
+				"npc_9": "textures/entity/npc/npc_10",
+				"npc_10": "textures/entity/npc/npc_scientist_1",
+				"npc_11": "textures/entity/npc/npc_scientist_2",
+				"npc_12": "textures/entity/npc/npc_scientist_3",
+				"npc_13": "textures/entity/npc/npc_scientist_4",
+				"npc_14": "textures/entity/npc/npc_scientist_5",
+				"npc_15": "textures/entity/npc/npc_scientist_6",
+				"npc_16": "textures/entity/npc/npc_scientist_7",
+				"npc_17": "textures/entity/npc/npc_scientist_8",
+				"npc_18": "textures/entity/npc/npc_scientist_9",
+				"npc_19": "textures/entity/npc/npc_scientist_10",
+				"npc_20": "textures/entity/npc/npc_apiary_1",
+				"npc_21": "textures/entity/npc/npc_apiary_2",
+				"npc_22": "textures/entity/npc/npc_apiary_3",
+				"npc_23": "textures/entity/npc/npc_apiary_4",
+				"npc_24": "textures/entity/npc/npc_apiary_5",
+				"npc_25": "textures/entity/npc/npc_teacher_1",
+				"npc_26": "textures/entity/npc/npc_teacher_2",
+				"npc_27": "textures/entity/npc/npc_teacher_3",
+				"npc_28": "textures/entity/npc/npc_teacher_4",
+				"npc_29": "textures/entity/npc/npc_teacher_5",
+				"npc_30": "textures/entity/npc/npc_construction_1",
+				"npc_31": "textures/entity/npc/npc_construction_2",
+				"npc_32": "textures/entity/npc/npc_construction_3",
+				"npc_33": "textures/entity/npc/npc_construction_4",
+				"npc_34": "textures/entity/npc/npc_construction_5",
+				"npc_35": "textures/entity/npc/npc_Agriculture_1",
+				"npc_36": "textures/entity/npc/npc_Agriculture_2",
+				"npc_37": "textures/entity/npc/npc_Agriculture_3",
+				"npc_38": "textures/entity/npc/npc_Agriculture_4",
+				"npc_39": "textures/entity/npc/npc_Agriculture_5",
+				"npc_40": "textures/entity/npc/npc_Agriculture_6",
+				"npc_41": "textures/entity/npc/npc_Agriculture_7",
+				"npc_42": "textures/entity/npc/npc_Agriculture_8",
+				"npc_43": "textures/entity/npc/npc_Agriculture_9",
+				"npc_44": "textures/entity/npc/npc_Agriculture_10",
+				"npc_45": "textures/entity/npc/npc_BusinessMobs_1",
+				"npc_46": "textures/entity/npc/npc_BusinessMobs_2",
+				"npc_47": "textures/entity/npc/npc_BusinessMobs_3",
+				"npc_48": "textures/entity/npc/npc_BusinessMobs_4",
+				"npc_49": "textures/entity/npc/npc_BusinessMobs_5",
+				"npc_50": "textures/entity/npc/npc_EverydayBusiness_1",
+				"npc_51": "textures/entity/npc/npc_EverydayBusiness_2",
+				"npc_52": "textures/entity/npc/npc_EverydayBusiness_3",
+				"npc_53": "textures/entity/npc/npc_EverydayBusiness_4",
+				"npc_54": "textures/entity/npc/npc_EverydayBusiness_5",
+				"npc_55": "textures/entity/npc/npc_Kiosk_1",
+				"npc_56": "textures/entity/npc/npc_Kiosk_2",
+				"npc_57": "textures/entity/npc/npc_Kiosk_3",
+				"npc_58": "textures/entity/npc/npc_Kiosk_4",
+				"npc_59": "textures/entity/npc/npc_Kiosk_5"
+			},
+			"geometry": {
+				"default": "geometry.npc"
+			},
+			"scripts": {
+				"animate": [
+					"general",
+					{
+						"move": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"animations": {
+				"general": "animation.npc.general",
+				"look_at_target": "animation.common.look_at_target",
+				"move": "animation.npc.move",
+				"baby_transform": "animation.npc.baby_transform"
+			},
+			"render_controllers": [
+				"controller.render.npc.custom"
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 35
+			}
+		}
+	}
+}

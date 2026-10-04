@@ -1,0 +1,209 @@
+{
+  "tool": "mctools-paintings",
+  "toolVersion": 1,
+  "items": [
+    {
+      "name": "best-minecraft-slain-skeleton-ykwoslfrzl4eg1jr",
+      "sizeW": 64,
+      "sizeH": 64,
+      "sizeLabel": "4×4",
+      "slotName": "pointer",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "minecraft-great-cave-walls-forest-hd-mm9b3bqe6qc6s96f",
+      "sizeW": 64,
+      "sizeH": 64,
+      "sizeLabel": "4×4",
+      "slotName": "pigscene",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "best-minecraft-steve-mining-655465j5tgwdy5v9",
+      "sizeW": 32,
+      "sizeH": 16,
+      "sizeLabel": "2×1",
+      "slotName": "pool",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "concept-art-minecraft-biome-marais2-1200x608",
+      "sizeW": 32,
+      "sizeH": 16,
+      "sizeLabel": "2×1",
+      "slotName": "courbet",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "steve-holding-a-pickaxe-best-minecraft-3s0xbvhpc2d0piiv",
+      "sizeW": 48,
+      "sizeH": 64,
+      "sizeLabel": "3×4",
+      "slotName": "backyard",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "best-minecraft-dungeons-characters-6xn5jk28fnqj6r4j",
+      "sizeW": 64,
+      "sizeH": 32,
+      "sizeLabel": "4×2",
+      "slotName": "fighters",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "3f1bd7bf555f01f979363cdd324c7c3b-mobspread3",
+      "sizeW": 64,
+      "sizeH": 32,
+      "sizeLabel": "4×2",
+      "slotName": "changing",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "39e42a1f084dd0924928bce99e0ed5ab-mobspread2",
+      "sizeW": 64,
+      "sizeH": 32,
+      "sizeLabel": "4×2",
+      "slotName": "finding",
+      "panX": 0.99,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "268",
+      "sizeW": 32,
+      "sizeH": 16,
+      "sizeLabel": "2×1",
+      "slotName": "sunset",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "wallpaper-minecraft-cheminee-3840x2160-1-1200x675",
+      "sizeW": 32,
+      "sizeH": 16,
+      "sizeLabel": "2×1",
+      "slotName": "creebet",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "533391",
+      "sizeW": 64,
+      "sizeH": 64,
+      "sizeLabel": "4×4",
+      "slotName": "burning_skull",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "533391",
+      "sizeW": 48,
+      "sizeH": 48,
+      "sizeLabel": "3×3",
+      "slotName": "bouquet",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "Capture d'écran 2026-07-28 173824",
+      "sizeW": 64,
+      "sizeH": 48,
+      "sizeLabel": "4×3",
+      "slotName": "skeleton",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "Capture d'écran 2026-07-28 173532",
+      "sizeW": 64,
+      "sizeH": 48,
+      "sizeLabel": "4×3",
+      "slotName": "donkey_kong",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "Capture d'écran 2026-07-28 173718",
+      "sizeW": 64,
+      "sizeH": 32,
+      "sizeLabel": "4×2",
+      "slotName": "lowmist",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "Capture d'écran 2026-07-28 173409",
+      "sizeW": 64,
+      "sizeH": 64,
+      "sizeLabel": "4×4",
+      "slotName": "unpacked",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "Capture d'écran 2026-07-28 173506",
+      "sizeW": 64,
+      "sizeH": 64,
+      "sizeLabel": "4×4",
+      "slotName": "orb",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "concept-art-minecraft-biome-marais2-1200x608",
+      "sizeW": 48,
+      "sizeH": 48,
+      "sizeLabel": "3×3",
+      "slotName": "cavebird",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "minecraft-great-cave-walls-forest-hd-mm9b3bqe6qc6s96f",
+      "sizeW": 64,
+      "sizeH": 32,
+      "sizeLabel": "4×2",
+      "slotName": "passage",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    },
+    {
+      "name": "best-minecraft-steve-mining-655465j5tgwdy5v9",
+      "sizeW": 32,
+      "sizeH": 16,
+      "sizeLabel": "2×1",
+      "slotName": "sea",
+      "panX": 0.5,
+      "panY": 0.5,
+      "scale": 4
+    }
+  ],
+  "format": "bedrock",
+  "pack_name": "§pAzeldor pack peinture v2",
+  "pack_desc": "20 custom paintings"
+}

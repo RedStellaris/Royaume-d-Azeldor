@@ -1,0 +1,32 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Azeldor pack peinture v2 by MCTools",
+    "description": "20 custom paintings",
+    "uuid": "66166432-3fe9-4391-944f-5b2316671aaa",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "2dd32b95-3684-4752-8ea7-2d221f4d3cc9",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon"
+  }
+}

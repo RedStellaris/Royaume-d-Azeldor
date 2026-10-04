@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "sh:item_display",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:persistent": {},
+			"minecraft:breathable": {
+				"breathes_water": true
+			},
+			"minecraft:type_family": {
+				"family": [
+					"mob"
+				]
+			},
+			"minecraft:equipment": {
+				"table": "loot_tables/empty.json"
+			}
+		}
+	}
+}

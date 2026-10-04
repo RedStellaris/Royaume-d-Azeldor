@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sh:item_display",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/blocks/glass"
+			},
+			"geometry": {
+				"default": "geometry.item_display"
+			},
+			"enable_attachables": true,
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

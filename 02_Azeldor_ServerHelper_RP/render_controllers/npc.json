@@ -1,0 +1,95 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.npc.custom": {
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.npc_0",
+						"Texture.npc_1",
+						"Texture.npc_2",
+						"Texture.npc_3",
+						"Texture.npc_4",
+						"Texture.npc_5",
+						"Texture.npc_6",
+						"Texture.npc_7",
+						"Texture.npc_8",
+						"Texture.npc_9",
+						"Texture.npc_10",
+						"Texture.npc_11",
+						"Texture.npc_12",
+						"Texture.npc_13",
+						"Texture.npc_14",
+						"Texture.npc_15",
+						"Texture.npc_16",
+						"Texture.npc_17",
+						"Texture.npc_18",
+						"Texture.npc_19",
+						"Texture.npc_20",
+						"Texture.npc_21",
+						"Texture.npc_22",
+						"Texture.npc_23",
+						"Texture.npc_24",
+						"Texture.npc_25",
+						"Texture.npc_26",
+						"Texture.npc_27",
+						"Texture.npc_28",
+						"Texture.npc_29",
+						"Texture.npc_30",
+						"Texture.npc_31",
+						"Texture.npc_32",
+						"Texture.npc_33",
+						"Texture.npc_34",
+						"Texture.npc_35",
+						"Texture.npc_36",
+						"Texture.npc_37",
+						"Texture.npc_38",
+						"Texture.npc_39",
+						"Texture.npc_40",
+						"Texture.npc_41",
+						"Texture.npc_42",
+						"Texture.npc_43",
+						"Texture.npc_44",
+						"Texture.npc_45",
+						"Texture.npc_46",
+						"Texture.npc_47",
+						"Texture.npc_48",
+						"Texture.npc_49",
+						"Texture.npc_50",
+						"Texture.npc_51",
+						"Texture.npc_52",
+						"Texture.npc_53",
+						"Texture.npc_54",
+						"Texture.npc_55",
+						"Texture.npc_56",
+						"Texture.npc_57",
+						"Texture.npc_58",
+						"Texture.npc_59"
+					]
+				}
+			},
+			"geometry": "geometry.default",
+			"part_visibility": [
+				{
+					"*": false,
+					"head": true,
+					"hat": true,
+					"nose": true,
+					"body": true,
+					"arms": true,
+					"leg0": true,
+					"leg1": true,
+					"jacket": true
+				}
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.skins[query.variant]"
+			]
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "azeldor_discs",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "azeldor:music_disc_misty_mountains": {
+      "textures": "textures/items/record_blocks"
+    },
+    "azeldor:music_disc_malthael": {
+      "textures": "textures/items/record_pigstep"
+    }
+  }
+}

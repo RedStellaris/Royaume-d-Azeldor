@@ -1,0 +1,1 @@
+{"format_version":"1.8.0","animations":{"animation.rober_bot.idle":{"loop":true,"animation_length":0.8,"bones":{"body":{"scale":{"0.0":[1,1,1],"0.4":[1,0.975,1],"0.8":[1,1,1]}},"rightArm":{"rotation":{"0.0":[0,0,0],"0.4":[0,0,2.5],"0.8":[0,0,0]}},"leftArm":{"rotation":{"0.0":[0,0,0],"0.4":[0,0,-2.5],"0.8":[0,0,0]}}},"particle_effects":{}}}}

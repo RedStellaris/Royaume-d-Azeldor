@@ -1,0 +1,13 @@
+item.record_13.name=musique de tournois/combat
+item.record_13.desc=musique de tournois/combat
+item.record_cat.name=commerce 1
+item.record_cat.desc=commerce 1
+item.record_blocks.name=commerce 2
+item.record_blocks.desc=commerce 2
+item.record_chirp.name=lieux de culte
+item.record_chirp.desc=lieux de culte
+item.record_far.name=pour les bastion/fort/lieux militaires
+item.record_far.desc=pour les bastion/fort/lieux militaires
+item.record_mall.name=pour le spawn
+item.record_mall.desc=pour le spawn
+record.nowPlaying=Now Playing: %s

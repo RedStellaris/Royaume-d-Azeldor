@@ -1,0 +1,32 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§b musique d'Azeldor V1 by MCTools",
+    "description": "Custom music discs (13, Cat, Blocks, Chirp, Far, Mall) - built with MCTools",
+    "uuid": "2f095a1e-3df4-4b1c-ac63-a07bbbee71f9",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "be94b473-c545-41dd-8e06-1189071d4828",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon"
+  }
+}

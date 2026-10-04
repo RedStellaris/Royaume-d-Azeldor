@@ -1,0 +1,99 @@
+{
+	"resource_pack_name": "Server Helper v4",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"sh_admin_menu": {
+			"textures": "textures/items/admin_menu"
+		},
+		"sh_shop": {
+			"textures": "textures/items/shop"
+		},
+		"sh_player_menu": {
+			"textures": "textures/items/player_menu"
+		},
+		"sh_category": {
+			"textures": "textures/items/category"
+		},
+		"sh_high_to_low": {
+			"textures": "textures/items/high_to_low"
+		},
+		"sh_low_to_high": {
+			"textures": "textures/items/low_to_high"
+		},
+		"sh_my_listings": {
+			"textures": "textures/items/my_listings"
+		},
+		"sh_next_page": {
+			"textures": "textures/items/next_page"
+		},
+		"sh_newest": {
+			"textures": "textures/items/newest"
+		},
+		"sh_oldest": {
+			"textures": "textures/items/oldest"
+		},
+		"sh_previous_page": {
+			"textures": "textures/items/previous_page"
+		},
+		"sh_search": {
+			"textures": "textures/items/search"
+		},
+		"sh_ui_num1": {
+			"textures": "textures/items/ui_num1"
+		},
+		"sh_ui_num2": {
+			"textures": "textures/items/ui_num2"
+		},
+		"sh_ui_num3": {
+			"textures": "textures/items/ui_num3"
+		},
+		"sh_ui_num4": {
+			"textures": "textures/items/ui_num4"
+		},
+		"sh_ui_num5": {
+			"textures": "textures/items/ui_num5"
+		},
+		"sh_ui_num6": {
+			"textures": "textures/items/ui_num6"
+		},
+		"sh_ui_num7": {
+			"textures": "textures/items/ui_num7"
+		},
+		"sh_ui_num8": {
+			"textures": "textures/items/ui_num8"
+		},
+		"sh_ui_num9": {
+			"textures": "textures/items/ui_num9"
+		},
+		"sh_ui_num0": {
+			"textures": "textures/items/ui_num0"
+		},
+		"sh_all_listings": {
+			"textures": "textures/items/all_listings"
+		},
+		"sh_ah": {
+			"textures": "textures/items/ah"
+		},
+		"sh_bazaar": {
+			"textures": "textures/items/bazaar"
+		},
+		"sh_sell_wand": {
+			"textures": "textures/items/sell_wand"
+		},
+		"sh_auto_hoe": {
+			"textures": "textures/items/auto_hoe"
+		},
+		"sh_miner_helmet": {
+			"textures": "textures/items/miner_helmet"
+		},
+		"sh_farmer_boots": {
+			"textures": "textures/items/farmer_boots"
+		},
+		"sh_pv": {
+			"textures": "textures/items/pv"
+		},
+		"sh_helper_menu": {
+			"textures": "textures/items/helper_menu"
+		}
+	}
+}

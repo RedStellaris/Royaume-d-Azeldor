@@ -1,0 +1,13 @@
+{
+  "ui_defs": [
+    "ui/chest_screen.json",
+    "ui/chest_screens/auction_house_ui.json",
+    "ui/chest_screens/bazaar_ui.json",
+    "ui/chest_screens/spawner.json",
+    "ui/chest_screens/spawnerv2.json",
+    "ui/chest_screens/pv_ui.json",
+    "ui/chest_screens/inventory.json",
+    "ui/chest_screens/trade_ui.json",
+    "ui/server_form.json"
+  ]
+}

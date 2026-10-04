@@ -1,0 +1,202 @@
+﻿## ============================================
+## FOURNITURE D'AZELDOR - Renommage des pierres
+## v1.1.1 - Noms définitifs
+## ============================================
+
+## ========== PIERRE (24 blocs) ==========
+
+## Naturel
+tile.stone.stone.name=Bloc de pierre naturelle neuf
+tile.stone_stairs.name=Escalier de pierre naturelle neuf
+tile.stone_block_slab.stone.name=Dalle de pierre naturelle neuf
+
+## Pavé neuf
+tile.cobblestone.name=Bloc de pavé en pierre neuf
+tile.normal_stone_stairs.name=Escalier de pavé en pierre neuf
+tile.stone_block_slab.cobblestone.name=Dalle de pavé en pierre neuf
+tile.cobblestone_wall.cobblestone.name=Muret de pavé en pierre neuf
+
+## Pavé moussu
+tile.mossy_cobblestone.name=Bloc de pavé en pierre moussu
+tile.mossy_cobblestone_stairs.name=Escalier de pavé en pierre moussu
+tile.stone_block_slab.mossy_cobblestone.name=Dalle de pavé en pierre moussu
+tile.cobblestone_wall.mossy_cobblestone.name=Muret de pavé en pierre moussu
+
+## Lisse
+tile.smooth_stone.name=Bloc de pierre lisse neuf
+tile.stone_block_slab.smooth_stone.name=Dalle de pierre lisse neuf
+
+## Brique neuf
+tile.stonebrick.default.name=Bloc de brique en pierre neuf
+tile.stone_brick_stairs.name=Escalier de brique en pierre neuf
+tile.stone_block_slab.stone_brick.name=Dalle de brique en pierre neuf
+tile.cobblestone_wall.stone_brick.name=Muret de brique en pierre neuf
+
+## Brique moussu
+tile.stonebrick.mossy.name=Bloc de brique en pierre moussu
+tile.mossy_stone_brick_stairs.name=Escalier de brique en pierre moussu
+tile.stone_block_slab.mossy_stone_brick.name=Dalle de brique en pierre moussu
+tile.cobblestone_wall.mossy_stone_brick.name=Muret de brique en pierre moussu
+
+## Brique craquelé
+tile.stonebrick.cracked.name=Bloc de brique en pierre craquelé
+
+## Sculpté
+tile.stonebrick.chiseled.name=Bloc de pierre sculpté neuf
+
+## ========== GRANITE (7 blocs) ==========
+
+## Naturel
+tile.stone.granite.name=Bloc de granite naturel neuf
+tile.granite_stairs.name=Escalier de granite naturel neuf
+tile.stone_block_slab.granite.name=Dalle de granite naturelle neuf
+tile.cobblestone_wall.granite.name=Muret de granite naturel neuf
+
+## Poli
+tile.stone.granite_smooth.name=Bloc de granite poli neuf
+tile.polished_granite_stairs.name=Escalier de granite poli neuf
+tile.stone_block_slab.smooth_granite.name=Dalle de granite polie neuf
+
+## ========== DIORITE (7 blocs) ==========
+
+## Naturel
+tile.stone.diorite.name=Bloc de diorite naturelle neuf
+tile.diorite_stairs.name=Escalier de diorite naturelle neuf
+tile.stone_block_slab.diorite.name=Dalle de diorite naturelle neuf
+tile.cobblestone_wall.diorite.name=Muret de diorite naturelle neuf
+
+## Poli
+tile.stone.diorite_smooth.name=Bloc de diorite polie neuf
+tile.polished_diorite_stairs.name=Escalier de diorite polie neuf
+tile.stone_block_slab.smooth_diorite.name=Dalle de diorite polie neuf
+
+## ========== ANDÉSITE (7 blocs) ==========
+
+## Naturel
+tile.stone.andesite.name=Bloc d'andésite naturelle neuf
+tile.andesite_stairs.name=Escalier d'andésite naturelle neuf
+tile.stone_block_slab.andesite.name=Dalle d'andésite naturelle neuf
+tile.cobblestone_wall.andesite.name=Muret d'andésite naturelle neuf
+
+## Poli
+tile.stone.andesite_smooth.name=Bloc d'andésite polie neuf
+tile.polished_andesite_stairs.name=Escalier d'andésite polie neuf
+tile.stone_block_slab.smooth_andesite.name=Dalle d'andésite polie neuf
+
+## ========== ARDOISE / Deepslate (20 blocs) ==========
+
+## Naturel
+tile.deepslate.name=Bloc d'ardoise naturelle neuf
+
+## Pavé
+tile.cobbled_deepslate.name=Bloc de pavé en ardoise neuf
+tile.cobbled_deepslate_stairs.name=Escalier de pavé en ardoise neuf
+tile.cobbled_deepslate_slab.name=Dalle de pavé en ardoise neuf
+tile.cobbled_deepslate_wall.name=Muret de pavé en ardoise neuf
+
+## Poli
+tile.polished_deepslate.name=Bloc d'ardoise polie neuf
+tile.polished_deepslate_stairs.name=Escalier d'ardoise polie neuf
+tile.polished_deepslate_slab.name=Dalle d'ardoise polie neuf
+tile.polished_deepslate_wall.name=Muret d'ardoise polie neuf
+
+## Brique
+tile.deepslate_bricks.name=Bloc de brique en ardoise neuf
+tile.deepslate_brick_stairs.name=Escalier de brique en ardoise neuf
+tile.deepslate_brick_slab.name=Dalle de brique en ardoise neuf
+tile.deepslate_brick_wall.name=Muret de brique en ardoise neuf
+
+## Brique craquelé
+tile.cracked_deepslate_bricks.name=Bloc de brique en ardoise craquelé
+
+## Tuile
+tile.deepslate_tiles.name=Bloc de tuile en ardoise neuf
+tile.deepslate_tile_stairs.name=Escalier de tuile en ardoise neuf
+tile.deepslate_tile_slab.name=Dalle de tuile en ardoise neuf
+tile.deepslate_tile_wall.name=Muret de tuile en ardoise neuf
+
+## Tuile craquelé
+tile.cracked_deepslate_tiles.name=Bloc de tuile en ardoise craquelé
+
+## Sculpté
+tile.chiseled_deepslate.name=Bloc d'ardoise sculpté neuf
+
+## ========== TUF (14 blocs) ==========
+
+## Naturel
+tile.tuff.name=Bloc de tuf naturel neuf
+tile.tuff_stairs.name=Escalier de tuf naturel neuf
+tile.tuff_slab.name=Dalle de tuf naturelle neuf
+tile.tuff_wall.name=Muret de tuf naturel neuf
+
+## Poli
+tile.polished_tuff.name=Bloc de tuf poli neuf
+tile.polished_tuff_stairs.name=Escalier de tuf poli neuf
+tile.polished_tuff_slab.name=Dalle de tuf polie neuf
+tile.polished_tuff_wall.name=Muret de tuf poli neuf
+
+## Brique
+tile.tuff_bricks.name=Bloc de brique en tuf neuf
+tile.tuff_brick_stairs.name=Escalier de brique en tuf neuf
+tile.tuff_brick_slab.name=Dalle de brique en tuf neuf
+tile.tuff_brick_wall.name=Muret de brique en tuf neuf
+
+## Sculpté
+tile.chiseled_tuff.name=Bloc de tuf sculpté neuf
+tile.chiseled_tuff_bricks.name=Bloc de brique en tuf sculpté neuf
+
+## ========== ENTITÉS AZELDOR ==========
+entity.azeldor:thyrael_statue.name=Statue de Thyraël
+entity.azeldor:thyrael_statue_big.name=Statue de Thyraël (Colossale)
+item.spawn_egg.entity.azeldor:thyrael_statue.name=Œuf de Statue de Thyraël
+item.spawn_egg.entity.azeldor:thyrael_statue_big.name=Œuf de Statue de Thyraël (Colossale)
+
+
+## ========== BLOCS CUSTOM AZELDOR (v1.2.0) ==========
+tile.azeldor:pave_pierre_vieillissant.name=Bloc de pavé en pierre vieillissant
+tile.azeldor:pierre_naturelle_moussu.name=Bloc de pierre naturelle moussu
+tile.azeldor:pierre_naturelle_vieillissant.name=Bloc de pierre naturelle vieillissant
+tile.azeldor:pierre_taillee_neuf.name=Bloc de pierre taillée neuf
+tile.azeldor:pierre_taillee_moussu.name=Bloc de pierre taillée moussu
+tile.azeldor:pierre_taillee_craquele.name=Bloc de pierre taillée craquelé
+tile.azeldor:pierre_taillee_vieillissant.name=Bloc de pierre taillée vieillissant
+tile.azeldor:pierre_polie_moussu.name=Bloc de pierre polie moussu
+tile.azeldor:pierre_polie_craquele.name=Bloc de pierre polie craquelé
+tile.azeldor:pierre_polie_vieillissant.name=Bloc de pierre polie vieillissant
+tile.azeldor:pierre_ciselee_neuf.name=Bloc de pierre ciselée neuf
+tile.azeldor:pierre_ciselee_moussu.name=Bloc de pierre ciselée moussu
+tile.azeldor:pierre_ciselee_craquele.name=Bloc de pierre ciselée craquelé
+tile.azeldor:pierre_ciselee_vieillissant.name=Bloc de pierre ciselée vieillissant
+tile.azeldor:brique_pierre_vieillissant.name=Bloc de brique en pierre vieillissant
+tile.azeldor:tuile_pierre_neuf.name=Bloc de tuile en pierre neuf
+tile.azeldor:tuile_pierre_moussu.name=Bloc de tuile en pierre moussu
+tile.azeldor:tuile_pierre_craquele.name=Bloc de tuile en pierre craquelé
+tile.azeldor:tuile_pierre_vieillissant.name=Bloc de tuile en pierre vieillissant
+tile.azeldor:pierre_lisse_neuf.name=Bloc de pierre lisse neuf
+tile.azeldor:pierre_lisse_craquele.name=Bloc de pierre lisse craquelé
+tile.azeldor:pilier_pierre_neuf.name=Bloc de pilier en pierre neuf
+tile.azeldor:pilier_pierre_moussu.name=Bloc de pilier en pierre moussu
+tile.azeldor:pilier_pierre_craquele.name=Bloc de pilier en pierre craquelé
+tile.azeldor:pilier_pierre_vieillissant.name=Bloc de pilier en pierre vieillissant
+tile.azeldor:pierre_sculptee_moussu.name=Bloc de pierre sculpté moussu
+tile.azeldor:pierre_sculptee_vieillissant.name=Bloc de pierre sculpté vieillissant
+tile.azeldor:pierre_sculptee_craquele.name=Bloc de pierre sculpté craquelé
+tile.azeldor:pierre_lisse_vieillissant.name=Bloc de pierre lisse vieillissant
+tile.azeldor:damier_pierre_neuf.name=Bloc de damier en pierre neuf
+tile.azeldor:bossage_pierre_neuf.name=Bloc de bossagé en pierre neuf
+tile.azeldor:bossage_pierre_moussu.name=Bloc de bossagé en pierre moussu
+tile.azeldor:bossage_pierre_vieillissant.name=Bloc de bossagé en pierre vieillissant
+
+## Statue Thyraël Mossy
+entity.azeldor:thyrael_statue_mossy.name=Statue de Thyraël moussue
+item.spawn_egg.entity.azeldor:thyrael_statue_mossy.name=Œuf de Statue de Thyraël moussue
+
+## Statue Thyraël Neige
+entity.azeldor:thyrael_statue_snow.name=Statue de Thyraël enneigée
+item.spawn_egg.entity.azeldor:thyrael_statue_snow.name=Œuf de Statue de Thyraël enneigée
+
+## Disque Custom
+item.record_blocks.desc=Misty Mountains Piano
+
+## Épée Relique
+item.azeldor:relic_sword.name=§6Épée Relique d'Azeldor

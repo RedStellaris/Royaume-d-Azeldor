@@ -1,0 +1,3 @@
+entity.ff:death_grave.name=Death Corpse
+item.spawn_egg.entity.ff:death_grave.name=Death Corpse Spawn Egg
+action.interact.collect=Collect Items

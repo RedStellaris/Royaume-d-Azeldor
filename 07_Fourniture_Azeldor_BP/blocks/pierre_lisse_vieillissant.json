@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "azeldor:pierre_lisse_vieillissant",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": false,
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:map_color": "#8a8a8a",
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "azeldor_pierre_lisse_vieillissant",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:light_dampening": 15
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "sh:blank",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:nameable": {
+				"always_show": true,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:collision_box": {
+				"height": 0.25,
+				"width": 0.1
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {
+					"max_distance": 30
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"deals_damage": false
+				}
+			}
+		}
+	}
+}

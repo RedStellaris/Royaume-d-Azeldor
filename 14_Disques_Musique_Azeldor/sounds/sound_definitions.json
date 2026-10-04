@@ -1,0 +1,65 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "record.13": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/music/game/records/13",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    },
+    "record.cat": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/music/game/records/cat",
+          "stream": true,
+          "volume": 1.1
+        }
+      ]
+    },
+    "record.blocks": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/music/game/records/blocks",
+          "stream": true,
+          "volume": 1.1
+        }
+      ]
+    },
+    "record.chirp": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/music/game/records/chirp",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    },
+    "record.far": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/music/game/records/far",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    },
+    "record.mall": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/music/game/records/mall",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"format_version":"1.10.0","animation_controllers":{"controller.animation.tp":{"states":{"default":{"transitions":[{"tp":"1"}]},"tp":{"transitions":[{"default":"(1.0)"}],"on_exit":["/tp @s ~ ~1 ~","/tp @s @p[c=1]","/tp @s ~ ~1 ~"]}}}}}

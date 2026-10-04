@@ -1,0 +1,72 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": [
+      "petstorebuft"
+    ],
+    "generated_with": {
+      "bridge": [
+        "2.7.54"
+      ],
+      "dash": [
+        "0.11.7"
+      ]
+    },
+    "product_type": "addon"
+  },
+  "header": {
+    "name": "03 - Azeldor Pack - Server Helper v4 [Behavior]",
+    "description": "Admin, économie & anti-cheat v4 - Lader Corps - Azeldor Teams",
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ],
+    "uuid": "8d7cfc30-f234-429c-bca9-f90f4ced096d",
+    "version": [
+      4,
+      3,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "4eaa8904-b2f8-47c1-b824-ad78059e7ddb",
+      "version": [
+        4,
+        3,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "da65dc3d-c389-4f91-b758-a22866ff7afc",
+      "entry": "scripts/main.js",
+      "version": [
+        4,
+        3,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "028e1894-30cb-43c8-8d67-f8e3202e9092",
+      "version": [
+        4,
+        3,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "alpha"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "alpha"
+    }
+  ]
+}

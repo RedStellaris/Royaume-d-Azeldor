@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "azeldor:music_disc_malthael",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.record"
+      }
+    },
+    "components": {
+      "minecraft:icon": "azeldor:music_disc_malthael",
+      "minecraft:display_name": {
+        "value": "§e%item.record.name\n§7Lader - Malthaël Theme"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:tags": {
+        "tags": [
+          "sound:record.azeldor:malthael_theme",
+          "duration:190",
+          "name:Lader - Malthaël Theme",
+          "minecraft:is_music_disc"
+        ]
+      }
+    }
+  }
+}

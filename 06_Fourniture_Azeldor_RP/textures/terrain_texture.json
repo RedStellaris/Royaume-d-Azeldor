@@ -1,0 +1,128 @@
+{
+  "resource_pack_name": "azeldor",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "azeldor_pave_pierre_vieillissant": {
+      "textures": "textures/blocks/pave_pierre_vieillissant"
+    },
+    "azeldor_pierre_naturelle_moussu": {
+      "textures": "textures/blocks/pierre_naturelle_moussu"
+    },
+    "azeldor_pierre_naturelle_vieillissant": {
+      "textures": "textures/blocks/pierre_naturelle_vieillissant"
+    },
+    "azeldor_pierre_taillee_neuf": {
+      "textures": "textures/blocks/pierre_taillee_neuf"
+    },
+    "azeldor_pierre_taillee_moussu": {
+      "textures": "textures/blocks/pierre_taillee_moussu"
+    },
+    "azeldor_pierre_taillee_craquele": {
+      "textures": "textures/blocks/pierre_taillee_craquele"
+    },
+    "azeldor_pierre_taillee_vieillissant": {
+      "textures": "textures/blocks/pierre_taillee_vieillissant"
+    },
+    "azeldor_pierre_polie_moussu": {
+      "textures": "textures/blocks/pierre_polie_moussu"
+    },
+    "azeldor_pierre_polie_craquele": {
+      "textures": "textures/blocks/pierre_polie_craquele"
+    },
+    "azeldor_pierre_polie_vieillissant": {
+      "textures": "textures/blocks/pierre_polie_vieillissant"
+    },
+    "azeldor_pierre_ciselee_neuf": {
+      "textures": "textures/blocks/pierre_ciselee_neuf"
+    },
+    "azeldor_pierre_ciselee_moussu": {
+      "textures": "textures/blocks/pierre_ciselee_moussu"
+    },
+    "azeldor_pierre_ciselee_craquele": {
+      "textures": "textures/blocks/pierre_ciselee_craquele"
+    },
+    "azeldor_pierre_ciselee_vieillissant": {
+      "textures": "textures/blocks/pierre_ciselee_vieillissant"
+    },
+    "azeldor_brique_pierre_vieillissant": {
+      "textures": "textures/blocks/brique_pierre_vieillissant"
+    },
+    "azeldor_tuile_pierre_neuf": {
+      "textures": "textures/blocks/tuile_pierre_neuf"
+    },
+    "azeldor_tuile_pierre_moussu": {
+      "textures": "textures/blocks/tuile_pierre_moussu"
+    },
+    "azeldor_tuile_pierre_craquele": {
+      "textures": "textures/blocks/tuile_pierre_craquele"
+    },
+    "azeldor_tuile_pierre_vieillissant": {
+      "textures": "textures/blocks/tuile_pierre_vieillissant"
+    },
+    "azeldor_pierre_lisse_neuf": {
+      "textures": "textures/blocks/pierre_lisse_neuf"
+    },
+    "azeldor_pierre_lisse_craquele": {
+      "textures": "textures/blocks/pierre_lisse_craquele"
+    },
+    "azeldor_pilier_pierre_neuf_side": {
+      "textures": "textures/blocks/pilier_pierre_neuf_side"
+    },
+    "azeldor_pilier_pierre_neuf_top": {
+      "textures": "textures/blocks/pilier_pierre_neuf_top"
+    },
+    "azeldor_pilier_pierre_moussu_side": {
+      "textures": "textures/blocks/pilier_pierre_moussu_side"
+    },
+    "azeldor_pilier_pierre_moussu_top": {
+      "textures": "textures/blocks/pilier_pierre_moussu_top"
+    },
+    "azeldor_pilier_pierre_craquele_side": {
+      "textures": "textures/blocks/pilier_pierre_craquele_side"
+    },
+    "azeldor_pilier_pierre_craquele_top": {
+      "textures": "textures/blocks/pilier_pierre_craquele_top"
+    },
+    "azeldor_pilier_pierre_vieillissant_side": {
+      "textures": "textures/blocks/pilier_pierre_vieillissant_side"
+    },
+    "azeldor_pilier_pierre_vieillissant_top": {
+      "textures": "textures/blocks/pilier_pierre_vieillissant_top"
+    },
+    "azeldor_pierre_sculptee_moussu": {
+      "textures": "textures/blocks/pierre_sculptee_moussu"
+    },
+    "azeldor_pierre_sculptee_vieillissant": {
+      "textures": "textures/blocks/pierre_sculptee_vieillissant"
+    },
+    "azeldor_pierre_sculptee_craquele": {
+      "textures": "textures/blocks/pierre_sculptee_craquele"
+    },
+    "azeldor_pierre_lisse_vieillissant": {
+      "textures": "textures/blocks/pierre_lisse_vieillissant"
+    },
+    "azeldor_damier_pierre_neuf": {
+      "textures": "textures/blocks/damier_pierre_neuf"
+    },
+    "azeldor_bossage_pierre_neuf_side": {
+      "textures": "textures/blocks/bossage_pierre_neuf_side"
+    },
+    "azeldor_bossage_pierre_neuf_top": {
+      "textures": "textures/blocks/bossage_pierre_neuf_top"
+    },
+    "azeldor_bossage_pierre_moussu_side": {
+      "textures": "textures/blocks/bossage_pierre_moussu_side"
+    },
+    "azeldor_bossage_pierre_moussu_top": {
+      "textures": "textures/blocks/bossage_pierre_moussu_top"
+    },
+    "azeldor_bossage_pierre_vieillissant_side": {
+      "textures": "textures/blocks/bossage_pierre_vieillissant_side"
+    },
+    "azeldor_bossage_pierre_vieillissant_top": {
+      "textures": "textures/blocks/bossage_pierre_vieillissant_top"
+    }
+  }
+}

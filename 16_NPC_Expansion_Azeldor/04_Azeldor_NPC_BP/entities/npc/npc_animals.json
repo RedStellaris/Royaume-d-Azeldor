@@ -1,0 +1,346 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "npc:npc_animals",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+	  "scripts":{
+		  "animate":[
+			"height"
+		  ]
+	  },
+	  "animations":{
+		  "height": "controller.animation.animals_height"
+	  }
+    },
+	"component_groups":{
+		"despawn":{
+		"minecraft:instant_despawn":{}
+		},
+		"medium":{
+		"minecraft:collision_box": {
+		"width": 0.6,
+		"height": 2.1
+			}
+		},
+		"xtra_small":{
+		"minecraft:collision_box": {
+		"width": 0.6,
+		"height": 0.6
+			}
+		},
+		"small":{
+		"minecraft:collision_box": {
+		"width": 0.6,
+		"height": 1.1
+			}
+		},
+		"tall":{
+		"minecraft:collision_box": {
+        "width": 0.6,
+        "height": 3.1
+			}
+		},
+		"move":{
+		 "minecraft:movement": {
+        "value": 0.20
+      }
+		},
+		"stop":{
+		 "minecraft:movement": {
+        "value": 0
+      }
+		},
+	  "sheep":{
+		"minecraft:is_dyeable": {
+          "interact_text": "action.interact.dye"
+        }  
+	  }
+		
+	},
+    "components": {
+	 "minecraft:attack": {
+        "damage": 5
+      },
+	  "minecraft:health": {
+        "value": 20,
+        "max": 30
+      },
+	"minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "must_see": false,
+        "reselect_targets": true,
+        "within_radius": 10,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "follow" },
+				{ "test": "has_tag", "subject": "other", "value": "target" }
+              ]
+            },
+            "max_dist": 11
+          }
+        ]
+      },
+	   "minecraft:behavior.melee_attack": {
+        "priority": 0,
+		"reach_multiplier": 5,
+        "speed_multiplier": 1.5,
+        "track_target": true
+      },
+	   "minecraft:navigation.generic": {
+		   "can_path_over_water": true,
+        "is_amphibious": true,
+        "can_pass_doors": true,
+		"can_swim": true,
+        "can_break_doors": false,
+        "avoid_portals": true
+      },
+	   "minecraft:jump.static":{
+	  },
+	  "minecraft:movement.basic": {
+      },
+	  "minecraft:can_climb": {
+      },
+	  "minecraft:behavior.float": {
+        "priority": 0
+      },
+	  "minecraft:environment_sensor": {
+        "triggers": [
+		{
+          "filters": {
+            "any_of": [{"test": "has_tag","value":"move"}]
+          },
+          "event": "move"
+		},
+		{
+          "filters": {
+            "any_of": [{"test": "has_tag","operator":"!=","value":"move"}]
+          },
+          "event": "stop"
+		},
+		{
+          "filters": {
+            "any_of": [{"test": "is_variant","operator":"==","value":24}]
+          },
+          "event": "sheep"
+		},
+		{
+          "filters": {
+            "any_of": [{"test": "is_variant","operator":"!=","value":24}]
+          },
+          "event": "no_sheep"
+		}
+		]
+	},
+	  "minecraft:conditional_bandwidth_optimization": {
+      },
+		"minecraft:interact":{
+	"interactions":[	
+			{
+	"on_interact":{
+		"filters" : {
+			"any_of":[
+			{
+			"test": "has_equipment","domain":"hand","subject": "other","value": "barrier"
+			}
+		]
+		},
+		"event": "despawn",
+		"target": "self"
+	},
+		"use_item":false,
+		"interact_text": "Remove NPC"
+		}
+	]
+	},
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:type_family": {
+        "family": [ "npc", "mob" ]
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:movement": {
+        "value": 0
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 0.9
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 0,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:persistent": {
+      },
+      "minecraft:npc": {
+        "npc_data": {
+          "portrait_offsets": {
+            "translate": [-7, 10, 0],
+            "scale": [1, 1, 1]
+          },
+          "picker_offsets": {
+            "translate": [0, 20, 0],
+            "scale": [1.7, 1.7, 1.7]
+          },
+          "skin_list":[
+            {
+				"variant": 0
+            },
+			{
+				"variant": 1
+			},
+			{
+				"variant": 2
+			},
+			{
+				"variant": 3
+			},
+			{
+				"variant": 4
+			},
+			{
+				"variant": 5
+			},
+			{
+				"variant": 6
+			},
+			{
+				"variant": 7
+			},
+			{
+				"variant": 8
+			},
+			{
+				"variant": 9
+			},
+			{
+				"variant": 10
+			},
+			{
+				"variant": 11
+			},
+			{
+				"variant": 12
+			},
+			{
+				"variant": 13
+			},
+			{
+				"variant": 14
+			},
+			{
+				"variant": 15
+			},
+			{
+				"variant": 16
+			},
+			{
+				"variant": 17
+			},
+			{
+				"variant": 18
+			},
+			{
+				"variant": 19
+			},
+			//1.17
+			{
+				"variant": 20
+			},
+			{
+				"variant": 21
+			},
+			{
+				"variant": 22
+			},
+			{
+				"variant": 23
+			},
+			//1.18
+			{
+				"variant": 24
+			},
+			{
+				"variant": 25
+			},
+			{
+				"variant": 26
+			},
+			{
+				"variant": 27
+			},
+			{
+				"variant": 28
+			},
+			{
+				"variant": 29
+			},
+			{
+				"variant": 30
+			},
+			{
+				"variant": 31
+			},
+			//1.19.20
+			{
+				"variant": 32
+			}
+          ]
+        }
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:physics": {
+      }
+    },
+	"events":{
+		"xtra_small":{
+		"add":{"component_groups":["xtra_small"]},
+		"remove":{"component_groups":["tall","medium","small"]}
+		},
+		"small":{
+		"add":{"component_groups":["small"]},
+		"remove":{"component_groups":["tall","medium","xtra_small"]}
+		},
+		"medium":{
+		"add":{"component_groups":["medium"]},
+		"remove":{"component_groups":["tall","small","xtra_small"]}
+		},
+		"tall":{
+		"add":{"component_groups":["tall"]},
+		"remove":{"component_groups":["small","medium","xtra_small"]}
+		},
+		"despawn":{
+		"add":{"component_groups":["despawn"]}
+		},
+		"move":{
+		"add":{"component_groups":["move"]},
+		"remove":{"component_groups":["stop"]}
+		},
+		"stop":{
+		"remove":{"component_groups":["move"]},
+		"add":{"component_groups":["stop"]}
+		},
+		"sheep":{
+		"add":{"component_groups":["sheep"]}
+		},
+		"no_sheep":{
+		"remove":{"component_groups":["sheep"]}
+		}
+	}
+  }
+}

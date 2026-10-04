@@ -1,0 +1,31 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "record.azeldor:misty_mountains": {
+      "__use_legacy_max_distance": true,
+      "category": "record",
+      "max_distance": 64.0,
+      "sounds": [
+        {
+          "load_on_low_memory": true,
+          "name": "sounds/azeldor/records/misty_mountains_piano",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    },
+    "record.azeldor:malthael_theme": {
+      "__use_legacy_max_distance": true,
+      "category": "record",
+      "max_distance": 64.0,
+      "sounds": [
+        {
+          "load_on_low_memory": true,
+          "name": "sounds/azeldor/records/malthael_theme",
+          "stream": true,
+          "volume": 1
+        }
+      ]
+    }
+  }
+}

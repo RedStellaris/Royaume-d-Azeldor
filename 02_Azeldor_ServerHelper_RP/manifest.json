@@ -1,0 +1,55 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": [
+      "petstorebuft"
+    ],
+    "generated_with": {
+      "bridge": [
+        "2.7.54"
+      ],
+      "dash": [
+        "0.11.7"
+      ]
+    }
+  },
+  "header": {
+    "name": "02 - Azeldor Pack - Server Helper v4 [Ressources]",
+    "description": "Admin, économie & anti-cheat v4 - Lader Corps - Azeldor Teams",
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ],
+    "uuid": "028e1894-30cb-43c8-8d67-f8e3202e9092",
+    "version": [
+      4,
+      3,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "71ab0434-5ce6-4701-88d6-44f9b565ed08",
+      "version": [
+        4,
+        3,
+        0
+      ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ],
+  "dependencies": [
+    {
+      "uuid": "a8149a87-ed07-4799-a66a-c9c7d31fa6d9",
+      "version": [
+        4,
+        3,
+        0
+      ]
+    }
+  ]
+}

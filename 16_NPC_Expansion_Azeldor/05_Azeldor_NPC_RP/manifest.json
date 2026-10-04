@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Modèles & textures NPC - Lader Corps - Azeldor Teams",
+    "name": "Azeldor Pack - NPC Expansion [Ressources]",
+    "uuid": "0a5b8e8b-9730-49b1-bc58-d434c6ca84b7",
+    "version": [
+      7,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      19,
+      80
+    ]
+  },
+  "modules": [
+    {
+      "description": "Example vanilla resource pack",
+      "type": "resources",
+      "uuid": "743f6949-53be-44b6-b326-398005028819",
+      "version": [
+        7,
+        0,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "azeldor:pave_pierre_vieillissant": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_naturelle_moussu": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_naturelle_vieillissant": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_taillee_neuf": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_taillee_moussu": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_taillee_craquele": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_taillee_vieillissant": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_polie_moussu": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_polie_craquele": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_polie_vieillissant": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_ciselee_neuf": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_ciselee_moussu": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_ciselee_craquele": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_ciselee_vieillissant": {
+    "sound": "stone"
+  },
+  "azeldor:brique_pierre_vieillissant": {
+    "sound": "stone"
+  },
+  "azeldor:tuile_pierre_neuf": {
+    "sound": "stone"
+  },
+  "azeldor:tuile_pierre_moussu": {
+    "sound": "stone"
+  },
+  "azeldor:tuile_pierre_craquele": {
+    "sound": "stone"
+  },
+  "azeldor:tuile_pierre_vieillissant": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_lisse_neuf": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_lisse_craquele": {
+    "sound": "stone"
+  },
+  "azeldor:pilier_pierre_neuf": {
+    "sound": "stone"
+  },
+  "azeldor:pilier_pierre_moussu": {
+    "sound": "stone"
+  },
+  "azeldor:pilier_pierre_craquele": {
+    "sound": "stone"
+  },
+  "azeldor:pilier_pierre_vieillissant": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_sculptee_moussu": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_sculptee_vieillissant": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_sculptee_craquele": {
+    "sound": "stone"
+  },
+  "azeldor:pierre_lisse_vieillissant": {
+    "sound": "stone"
+  },
+  "azeldor:damier_pierre_neuf": {
+    "sound": "stone"
+  },
+  "azeldor:bossage_pierre_neuf": {
+    "sound": "stone"
+  },
+  "azeldor:bossage_pierre_moussu": {
+    "sound": "stone"
+  },
+  "azeldor:bossage_pierre_vieillissant": {
+    "sound": "stone"
+  }
+}

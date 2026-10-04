@@ -1,0 +1,63 @@
+{
+  "tool": "mctools-musicdisc",
+  "toolVersion": 1,
+  "items": [
+    {
+      "discId": "13",
+      "discName": "13",
+      "displayName": "musique de tournois/combat",
+      "duration": 120.024,
+      "volume": 1,
+      "audioPath": "sounds/music/game/records/13.ogg",
+      "hasCustomTex": true
+    },
+    {
+      "discId": "cat",
+      "discName": "Cat",
+      "displayName": "commerce 1",
+      "duration": 190.152,
+      "volume": 1.1,
+      "audioPath": "sounds/music/game/records/cat.ogg",
+      "hasCustomTex": true
+    },
+    {
+      "discId": "blocks",
+      "discName": "Blocks",
+      "displayName": "commerce 2",
+      "duration": 109.740406,
+      "volume": 1.1,
+      "audioPath": "sounds/music/game/records/blocks.ogg",
+      "hasCustomTex": true
+    },
+    {
+      "discId": "chirp",
+      "discName": "Chirp",
+      "displayName": "lieux de culte",
+      "duration": 421.041625,
+      "volume": 1,
+      "audioPath": "sounds/music/game/records/chirp.ogg",
+      "hasCustomTex": true
+    },
+    {
+      "discId": "far",
+      "discName": "Far",
+      "displayName": "pour les bastion/fort/lieux militaires",
+      "duration": 340.032,
+      "volume": 1,
+      "audioPath": "sounds/music/game/records/far.ogg",
+      "hasCustomTex": true
+    },
+    {
+      "discId": "mall",
+      "discName": "Mall",
+      "displayName": "pour le spawn",
+      "duration": 234.624,
+      "volume": 1,
+      "audioPath": "sounds/music/game/records/mall.ogg",
+      "hasCustomTex": true
+    }
+  ],
+  "format": "bedrock",
+  "pack_name": "§b musique d'Azeldor V1",
+  "as_addon": false
+}

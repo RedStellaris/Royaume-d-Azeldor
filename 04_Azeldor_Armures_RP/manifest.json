@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Retextures armures chevalier - Lader Corps - Azeldor Teams",
+    "name": "04 - Azeldor Pack - Armures Médiévales",
+    "uuid": "b8ff3fc4-18b8-11ee-be56-0242ac120002",
+    "version": [
+      1,
+      8,
+      8
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Knight Armor",
+      "type": "resources",
+      "uuid": "c7eb2778-18b8-11ee-be56-0242ac120002",
+      "version": [
+        1,
+        8,
+        8
+      ]
+    }
+  ]
+}

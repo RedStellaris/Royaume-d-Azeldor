@@ -1,0 +1,48 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Système NPC configurable - Lader Corps - Azeldor Teams",
+    "name": "Azeldor Pack - NPC Expansion [Behavior]",
+    "uuid": "0647ec42-5938-4c98-9d8d-fa254d38674c",
+    "version": [
+      7,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      19,
+      80
+    ]
+  },
+  "modules": [
+    {
+      "description": "Example vanilla behavior pack",
+      "type": "data",
+      "uuid": "fa6e90c8-c925-460f-8155-c8a60b753caa",
+      "version": [
+        7,
+        0,
+        0
+      ]
+    },
+    {
+      "description": "JavaScript module code",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "8d4fe9a0-1497-4bf6-fd03-df27b7bada3d",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/Main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.14.0"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "sh:mob_spawner"
+		},
+		"components": {
+			"minecraft:selection_box": {
+				"size": [
+					15.9,
+					15.9,
+					15.9
+				],
+				"origin": [
+					-7.95,
+					0,
+					-7.95
+				]
+			},
+			"minecraft:collision_box": {
+				"size": [
+					15.9,
+					15.9,
+					15.9
+				],
+				"origin": [
+					-7.95,
+					0,
+					-7.95
+				]
+			},
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:flammable": false,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "sh_mob_spawner",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "azeldor:thyrael_statue_big",
+      "materials": {
+        "default": "entity"
+      },
+      "textures": {
+        "default": "textures/entity/thyrael_statue_big"
+      },
+      "geometry": {
+        "default": "geometry.azeldor.thyrael_statue_big"
+      },
+      "render_controllers": [
+        "controller.render.thyrael_statue_big"
+      ],
+      "scripts": {
+        "scale": "3"
+      },
+      "spawn_egg": {
+        "base_color": "#3a3a3a",
+        "overlay_color": "#1a4a12"
+      }
+    }
+  }
+}

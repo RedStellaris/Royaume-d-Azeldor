@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "09 - Azeldor Pack - Disques Custom",
+    "description": "Disques de musique custom - Lader Corps - Azeldor Teams",
+    "min_engine_version": [
+      1,
+      21,
+      20
+    ],
+    "uuid": "4f654919-9aec-43a2-9250-1d2b095faf16",
+    "version": [
+      1,
+      1,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "e062ff3f-0c0d-4512-a260-8e460da7bc51",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "60ea844c-6009-424e-8a97-b7febbfb2bdd",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.3.0"
+    },
+    {
+      "uuid": "ebb07356-7a6a-48a2-8d84-ee567af3e3ab",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "sh:bazaar_ent",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/ah_bazaar_ent"
+			},
+			"geometry": {
+				"default": "geometry.ah/bazaar_ent"
+			},
+			"render_controllers": [
+				"controller.render.bazaar_ent"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sh:admin_menu",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:icon": "sh_admin_menu",
+			"minecraft:max_stack_size": 1,
+			"minecraft:display_name": {
+				"value": "Admin Menu"
+			}
+		}
+	}
+}

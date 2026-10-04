@@ -1,0 +1,73 @@
+{
+  "namespace": "server_helper:spawner",
+  "root": {
+    "type": "panel",
+    "controls": [
+      { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+      { "flying_item_renderer@common.flying_item_renderer": { "layer": 20 } },
+      { "selected_item_details_factory@common.selected_item_details_factory": {} },
+      { "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+      {
+        "root_panel@common.root_panel": {
+          "layer": 1,
+          "size": [175, 130], 
+          "controls": [
+            { "common_panel@common.common_panel": {} },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "offset": [0, 0], 
+                "controls": [
+                  { "top_half@server_helper:spawner.top_half": {} },
+                  { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+                  { "hotbar_grid@common.hotbar_grid_template": {} }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ui_title": {
+    "type": "label",
+    "text": "§l§2Spawner §f- §3Server Helper",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [6, -3],
+    "color": "$title_text_color"
+  },
+  "item_slot": {
+    "type": "stack_panel",
+    "$index": 0,
+    "collection_name": "container_items",
+    "$slot_size": [18, 18],
+    "$slot_image_size": [18, 18],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "slot@chest.chest_grid_item": {
+          "ignored": false,
+          "$cell_image_size": "$slot_image_size",
+          "size": "$slot_size",
+          "collection_index": "$index"
+        }
+      }
+    ]
+  },
+  "top_half": {
+      "type": "panel",
+      "size": ["100%", 112],
+      "offset": [0, 7],
+      "anchor_to": "top_left",
+      "anchor_from": "top_left",
+      "controls": [
+        { "title@server_helper:spawner.ui_title": {} },
+        { "add@server_helper:spawner.item_slot": { "$index": 0, "offset": [6.5, 8] } },
+        { "remove@server_helper:spawner.item_slot": { "$index": 1, "offset": [24.5, 8] } },
+        { "amount@server_helper:spawner.item_slot": { "$index": 2, "offset": [42.5, 8] } }
+      ]
+    }
+}

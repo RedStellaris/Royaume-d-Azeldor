@@ -1,0 +1,10 @@
+{
+	"texture_data": {
+		"sh_inventory": {
+			"textures": "textures/blocks/mob_spawner"
+		},
+		"sh_mob_spawner": {
+			"textures": "textures/blocks/mob_spawner"
+		}
+	}
+}

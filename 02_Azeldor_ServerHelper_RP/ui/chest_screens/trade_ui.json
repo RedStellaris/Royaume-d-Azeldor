@@ -1,0 +1,132 @@
+{
+  "namespace": "server_helper:trade",
+  "root": {
+    "type": "panel",
+    "controls": [
+      { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+      { "flying_item_renderer@common.flying_item_renderer": { "layer": 20 } },
+      { "selected_item_details_factory@common.selected_item_details_factory": {} },
+      { "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+      {
+        "root_panel@common.root_panel": {
+          "layer": 1,
+          "size": [176, 222],
+          "controls": [
+            { "common_panel@common.common_panel": {} },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  { "top_half@server_helper:trade.top_half": { "offset": [-6, 10] } },
+                  { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+                  { "hotbar_grid@common.hotbar_grid_template": {} }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ui_title": {
+    "type": "label",
+    "text": "\u00a7b\u00a7lTrade \u00a7f- \u00a73Server Helper",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [12, -3],
+    "color": "$title_text_color"
+  },
+  "your_offer_label": {
+    "type": "label",
+    "text": "\u00a79\u25bc YOUR OFFER \u25bc",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [12, 8],
+    "color": "$title_text_color"
+  },
+  "their_offer_label": {
+    "type": "label",
+    "text": "\u00a76\u25bc THEIR OFFER \u25bc",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [12, 56],
+    "color": "$title_text_color"
+  },
+  "trade_slot": {
+    "type": "stack_panel",
+    "$index": 0,
+    "collection_name": "container_items",
+    "$slot_size": [18, 18],
+    "$slot_image_size": [18, 18],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "slot@chest.chest_grid_item": {
+          "ignored": false,
+          "$cell_image_size": "$slot_image_size",
+          "size": "$slot_size",
+          "collection_index": "$index"
+        }
+      }
+    ]
+  },
+  "top_half": {
+    "type": "panel",
+    "size": ["100%", 132],
+    "offset": [0, 7],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      { "title@server_helper:trade.ui_title": {} },
+      { "your_label@server_helper:trade.your_offer_label": {} },
+
+      { "my_0@server_helper:trade.trade_slot": { "$index": 0, "offset": [12, 18] } },
+      { "my_1@server_helper:trade.trade_slot": { "$index": 1, "offset": [30, 18] } },
+      { "my_2@server_helper:trade.trade_slot": { "$index": 2, "offset": [48, 18] } },
+      { "my_3@server_helper:trade.trade_slot": { "$index": 3, "offset": [66, 18] } },
+      { "my_4@server_helper:trade.trade_slot": { "$index": 4, "offset": [84, 18] } },
+      { "my_5@server_helper:trade.trade_slot": { "$index": 5, "offset": [102, 18] } },
+      { "my_6@server_helper:trade.trade_slot": { "$index": 6, "offset": [120, 18] } },
+      { "my_7@server_helper:trade.trade_slot": { "$index": 7, "offset": [138, 18] } },
+      { "my_8@server_helper:trade.trade_slot": { "$index": 8, "offset": [156, 18] } },
+
+      { "my_9@server_helper:trade.trade_slot": { "$index": 9, "offset": [12, 36] } },
+      { "my_10@server_helper:trade.trade_slot": { "$index": 10, "offset": [30, 36] } },
+      { "my_11@server_helper:trade.trade_slot": { "$index": 11, "offset": [48, 36] } },
+      { "my_12@server_helper:trade.trade_slot": { "$index": 12, "offset": [66, 36] } },
+      { "my_13@server_helper:trade.trade_slot": { "$index": 13, "offset": [84, 36] } },
+      { "my_14@server_helper:trade.trade_slot": { "$index": 14, "offset": [102, 36] } },
+      { "my_15@server_helper:trade.trade_slot": { "$index": 15, "offset": [120, 36] } },
+      { "my_16@server_helper:trade.trade_slot": { "$index": 16, "offset": [138, 36] } },
+      { "my_17@server_helper:trade.trade_slot": { "$index": 17, "offset": [156, 36] } },
+
+      { "their_label@server_helper:trade.their_offer_label": {} },
+
+      { "their_0@server_helper:trade.trade_slot": { "$index": 18, "offset": [12, 66] } },
+      { "their_1@server_helper:trade.trade_slot": { "$index": 19, "offset": [30, 66] } },
+      { "their_2@server_helper:trade.trade_slot": { "$index": 20, "offset": [48, 66] } },
+      { "their_3@server_helper:trade.trade_slot": { "$index": 21, "offset": [66, 66] } },
+      { "their_4@server_helper:trade.trade_slot": { "$index": 22, "offset": [84, 66] } },
+      { "their_5@server_helper:trade.trade_slot": { "$index": 23, "offset": [102, 66] } },
+      { "their_6@server_helper:trade.trade_slot": { "$index": 24, "offset": [120, 66] } },
+      { "their_7@server_helper:trade.trade_slot": { "$index": 25, "offset": [138, 66] } },
+      { "their_8@server_helper:trade.trade_slot": { "$index": 26, "offset": [156, 66] } },
+
+      { "their_9@server_helper:trade.trade_slot": { "$index": 27, "offset": [12, 84] } },
+      { "their_10@server_helper:trade.trade_slot": { "$index": 28, "offset": [30, 84] } },
+      { "their_11@server_helper:trade.trade_slot": { "$index": 29, "offset": [48, 84] } },
+      { "their_12@server_helper:trade.trade_slot": { "$index": 30, "offset": [66, 84] } },
+      { "their_13@server_helper:trade.trade_slot": { "$index": 31, "offset": [84, 84] } },
+      { "their_14@server_helper:trade.trade_slot": { "$index": 32, "offset": [102, 84] } },
+      { "their_15@server_helper:trade.trade_slot": { "$index": 33, "offset": [120, 84] } },
+      { "their_16@server_helper:trade.trade_slot": { "$index": 34, "offset": [138, 84] } },
+      { "their_17@server_helper:trade.trade_slot": { "$index": 35, "offset": [156, 84] } },
+
+      { "partner_ready_slot@server_helper:trade.trade_slot": { "$index": 39, "offset": [66, 106] } },
+      { "ready_slot@server_helper:trade.trade_slot": { "$index": 40, "offset": [84, 106] } },
+      { "cancel_slot@server_helper:trade.trade_slot": { "$index": 44, "offset": [156, 106] } }
+    ]
+  }
+}

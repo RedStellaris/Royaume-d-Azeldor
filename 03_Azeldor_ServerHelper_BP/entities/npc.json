@@ -1,0 +1,766 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "sh:npc",
+			"is_experimental": false,
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"variant_0": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"variant_1": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"variant_2": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"variant_3": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"variant_4": {
+				"minecraft:variant": {
+					"value": 4
+				}
+			},
+			"variant_5": {
+				"minecraft:variant": {
+					"value": 5
+				}
+			},
+			"variant_6": {
+				"minecraft:variant": {
+					"value": 6
+				}
+			},
+			"variant_7": {
+				"minecraft:variant": {
+					"value": 7
+				}
+			},
+			"variant_8": {
+				"minecraft:variant": {
+					"value": 8
+				}
+			},
+			"variant_9": {
+				"minecraft:variant": {
+					"value": 9
+				}
+			},
+			"variant_10": {
+				"minecraft:variant": {
+					"value": 10
+				}
+			},
+			"variant_11": {
+				"minecraft:variant": {
+					"value": 11
+				}
+			},
+			"variant_12": {
+				"minecraft:variant": {
+					"value": 12
+				}
+			},
+			"variant_13": {
+				"minecraft:variant": {
+					"value": 13
+				}
+			},
+			"variant_14": {
+				"minecraft:variant": {
+					"value": 14
+				}
+			},
+			"variant_15": {
+				"minecraft:variant": {
+					"value": 15
+				}
+			},
+			"variant_16": {
+				"minecraft:variant": {
+					"value": 16
+				}
+			},
+			"variant_17": {
+				"minecraft:variant": {
+					"value": 17
+				}
+			},
+			"variant_18": {
+				"minecraft:variant": {
+					"value": 18
+				}
+			},
+			"variant_19": {
+				"minecraft:variant": {
+					"value": 19
+				}
+			},
+			"variant_20": {
+				"minecraft:variant": {
+					"value": 20
+				}
+			},
+			"variant_21": {
+				"minecraft:variant": {
+					"value": 21
+				}
+			},
+			"variant_22": {
+				"minecraft:variant": {
+					"value": 22
+				}
+			},
+			"variant_23": {
+				"minecraft:variant": {
+					"value": 23
+				}
+			},
+			"variant_24": {
+				"minecraft:variant": {
+					"value": 24
+				}
+			},
+			"variant_25": {
+				"minecraft:variant": {
+					"value": 25
+				}
+			},
+			"variant_26": {
+				"minecraft:variant": {
+					"value": 26
+				}
+			},
+			"variant_27": {
+				"minecraft:variant": {
+					"value": 27
+				}
+			},
+			"variant_28": {
+				"minecraft:variant": {
+					"value": 28
+				}
+			},
+			"variant_29": {
+				"minecraft:variant": {
+					"value": 29
+				}
+			},
+			"variant_30": {
+				"minecraft:variant": {
+					"value": 30
+				}
+			},
+			"variant_31": {
+				"minecraft:variant": {
+					"value": 31
+				}
+			},
+			"variant_32": {
+				"minecraft:variant": {
+					"value": 32
+				}
+			},
+			"variant_33": {
+				"minecraft:variant": {
+					"value": 33
+				}
+			},
+			"variant_34": {
+				"minecraft:variant": {
+					"value": 34
+				}
+			},
+			"variant_35": {
+				"minecraft:variant": {
+					"value": 35
+				}
+			},
+			"variant_36": {
+				"minecraft:variant": {
+					"value": 36
+				}
+			},
+			"variant_37": {
+				"minecraft:variant": {
+					"value": 37
+				}
+			},
+			"variant_38": {
+				"minecraft:variant": {
+					"value": 38
+				}
+			},
+			"variant_39": {
+				"minecraft:variant": {
+					"value": 39
+				}
+			},
+			"variant_40": {
+				"minecraft:variant": {
+					"value": 40
+				}
+			},
+			"variant_41": {
+				"minecraft:variant": {
+					"value": 41
+				}
+			},
+			"variant_42": {
+				"minecraft:variant": {
+					"value": 42
+				}
+			},
+			"variant_43": {
+				"minecraft:variant": {
+					"value": 43
+				}
+			},
+			"variant_44": {
+				"minecraft:variant": {
+					"value": 44
+				}
+			},
+			"variant_45": {
+				"minecraft:variant": {
+					"value": 45
+				}
+			},
+			"variant_46": {
+				"minecraft:variant": {
+					"value": 46
+				}
+			},
+			"variant_47": {
+				"minecraft:variant": {
+					"value": 47
+				}
+			},
+			"variant_48": {
+				"minecraft:variant": {
+					"value": 48
+				}
+			},
+			"variant_49": {
+				"minecraft:variant": {
+					"value": 49
+				}
+			},
+			"variant_50": {
+				"minecraft:variant": {
+					"value": 50
+				}
+			},
+			"variant_51": {
+				"minecraft:variant": {
+					"value": 51
+				}
+			},
+			"variant_52": {
+				"minecraft:variant": {
+					"value": 52
+				}
+			},
+			"variant_53": {
+				"minecraft:variant": {
+					"value": 53
+				}
+			},
+			"variant_54": {
+				"minecraft:variant": {
+					"value": 54
+				}
+			},
+			"variant_55": {
+				"minecraft:variant": {
+					"value": 55
+				}
+			},
+			"variant_56": {
+				"minecraft:variant": {
+					"value": 56
+				}
+			},
+			"variant_57": {
+				"minecraft:variant": {
+					"value": 57
+				}
+			},
+			"variant_58": {
+				"minecraft:variant": {
+					"value": 58
+				}
+			},
+			"variant_59": {
+				"minecraft:variant": {
+					"value": 59
+				}
+			}
+		},
+		"components": {
+			"minecraft:behavior.look_at_player": {
+				"look_time": [
+					1,
+					2
+				],
+				"look_distance": 6
+			},
+			"minecraft:collision_box": {
+				"height": 2.1,
+				"width": 0.6
+			},
+			"minecraft:fire_immune": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": true,
+				"always_show": true
+			},
+			"minecraft:physics": {},
+			"minecraft:type_family": {
+				"family": [
+					"npc",
+					"mob"
+				]
+			}
+		},
+		"events": {
+			"set_variant_0": {
+				"add": {
+					"component_groups": [
+						"variant_0"
+					]
+				}
+			},
+			"set_variant_1": {
+				"add": {
+					"component_groups": [
+						"variant_1"
+					]
+				}
+			},
+			"set_variant_2": {
+				"add": {
+					"component_groups": [
+						"variant_2"
+					]
+				}
+			},
+			"set_variant_3": {
+				"add": {
+					"component_groups": [
+						"variant_3"
+					]
+				}
+			},
+			"set_variant_4": {
+				"add": {
+					"component_groups": [
+						"variant_4"
+					]
+				}
+			},
+			"set_variant_5": {
+				"add": {
+					"component_groups": [
+						"variant_5"
+					]
+				}
+			},
+			"set_variant_6": {
+				"add": {
+					"component_groups": [
+						"variant_6"
+					]
+				}
+			},
+			"set_variant_7": {
+				"add": {
+					"component_groups": [
+						"variant_7"
+					]
+				}
+			},
+			"set_variant_8": {
+				"add": {
+					"component_groups": [
+						"variant_8"
+					]
+				}
+			},
+			"set_variant_9": {
+				"add": {
+					"component_groups": [
+						"variant_9"
+					]
+				}
+			},
+			"set_variant_10": {
+				"add": {
+					"component_groups": [
+						"variant_10"
+					]
+				}
+			},
+			"set_variant_11": {
+				"add": {
+					"component_groups": [
+						"variant_11"
+					]
+				}
+			},
+			"set_variant_12": {
+				"add": {
+					"component_groups": [
+						"variant_12"
+					]
+				}
+			},
+			"set_variant_13": {
+				"add": {
+					"component_groups": [
+						"variant_13"
+					]
+				}
+			},
+			"set_variant_14": {
+				"add": {
+					"component_groups": [
+						"variant_14"
+					]
+				}
+			},
+			"set_variant_15": {
+				"add": {
+					"component_groups": [
+						"variant_15"
+					]
+				}
+			},
+			"set_variant_16": {
+				"add": {
+					"component_groups": [
+						"variant_16"
+					]
+				}
+			},
+			"set_variant_17": {
+				"add": {
+					"component_groups": [
+						"variant_17"
+					]
+				}
+			},
+			"set_variant_18": {
+				"add": {
+					"component_groups": [
+						"variant_18"
+					]
+				}
+			},
+			"set_variant_19": {
+				"add": {
+					"component_groups": [
+						"variant_19"
+					]
+				}
+			},
+			"set_variant_20": {
+				"add": {
+					"component_groups": [
+						"variant_20"
+					]
+				}
+			},
+			"set_variant_21": {
+				"add": {
+					"component_groups": [
+						"variant_21"
+					]
+				}
+			},
+			"set_variant_22": {
+				"add": {
+					"component_groups": [
+						"variant_22"
+					]
+				}
+			},
+			"set_variant_23": {
+				"add": {
+					"component_groups": [
+						"variant_23"
+					]
+				}
+			},
+			"set_variant_24": {
+				"add": {
+					"component_groups": [
+						"variant_24"
+					]
+				}
+			},
+			"set_variant_25": {
+				"add": {
+					"component_groups": [
+						"variant_25"
+					]
+				}
+			},
+			"set_variant_26": {
+				"add": {
+					"component_groups": [
+						"variant_26"
+					]
+				}
+			},
+			"set_variant_27": {
+				"add": {
+					"component_groups": [
+						"variant_27"
+					]
+				}
+			},
+			"set_variant_28": {
+				"add": {
+					"component_groups": [
+						"variant_28"
+					]
+				}
+			},
+			"set_variant_29": {
+				"add": {
+					"component_groups": [
+						"variant_29"
+					]
+				}
+			},
+			"set_variant_30": {
+				"add": {
+					"component_groups": [
+						"variant_30"
+					]
+				}
+			},
+			"set_variant_31": {
+				"add": {
+					"component_groups": [
+						"variant_31"
+					]
+				}
+			},
+			"set_variant_32": {
+				"add": {
+					"component_groups": [
+						"variant_32"
+					]
+				}
+			},
+			"set_variant_33": {
+				"add": {
+					"component_groups": [
+						"variant_33"
+					]
+				}
+			},
+			"set_variant_34": {
+				"add": {
+					"component_groups": [
+						"variant_34"
+					]
+				}
+			},
+			"set_variant_35": {
+				"add": {
+					"component_groups": [
+						"variant_35"
+					]
+				}
+			},
+			"set_variant_36": {
+				"add": {
+					"component_groups": [
+						"variant_36"
+					]
+				}
+			},
+			"set_variant_37": {
+				"add": {
+					"component_groups": [
+						"variant_37"
+					]
+				}
+			},
+			"set_variant_38": {
+				"add": {
+					"component_groups": [
+						"variant_38"
+					]
+				}
+			},
+			"set_variant_39": {
+				"add": {
+					"component_groups": [
+						"variant_39"
+					]
+				}
+			},
+			"set_variant_40": {
+				"add": {
+					"component_groups": [
+						"variant_40"
+					]
+				}
+			},
+			"set_variant_41": {
+				"add": {
+					"component_groups": [
+						"variant_41"
+					]
+				}
+			},
+			"set_variant_42": {
+				"add": {
+					"component_groups": [
+						"variant_42"
+					]
+				}
+			},
+			"set_variant_43": {
+				"add": {
+					"component_groups": [
+						"variant_43"
+					]
+				}
+			},
+			"set_variant_44": {
+				"add": {
+					"component_groups": [
+						"variant_44"
+					]
+				}
+			},
+			"set_variant_45": {
+				"add": {
+					"component_groups": [
+						"variant_45"
+					]
+				}
+			},
+			"set_variant_46": {
+				"add": {
+					"component_groups": [
+						"variant_46"
+					]
+				}
+			},
+			"set_variant_47": {
+				"add": {
+					"component_groups": [
+						"variant_47"
+					]
+				}
+			},
+			"set_variant_48": {
+				"add": {
+					"component_groups": [
+						"variant_48"
+					]
+				}
+			},
+			"set_variant_49": {
+				"add": {
+					"component_groups": [
+						"variant_49"
+					]
+				}
+			},
+			"set_variant_50": {
+				"add": {
+					"component_groups": [
+						"variant_50"
+					]
+				}
+			},
+			"set_variant_51": {
+				"add": {
+					"component_groups": [
+						"variant_51"
+					]
+				}
+			},
+			"set_variant_52": {
+				"add": {
+					"component_groups": [
+						"variant_52"
+					]
+				}
+			},
+			"set_variant_53": {
+				"add": {
+					"component_groups": [
+						"variant_53"
+					]
+				}
+			},
+			"set_variant_54": {
+				"add": {
+					"component_groups": [
+						"variant_54"
+					]
+				}
+			},
+			"set_variant_55": {
+				"add": {
+					"component_groups": [
+						"variant_55"
+					]
+				}
+			},
+			"set_variant_56": {
+				"add": {
+					"component_groups": [
+						"variant_56"
+					]
+				}
+			},
+			"set_variant_57": {
+				"add": {
+					"component_groups": [
+						"variant_57"
+					]
+				}
+			},
+			"set_variant_58": {
+				"add": {
+					"component_groups": [
+						"variant_58"
+					]
+				}
+			},
+			"set_variant_59": {
+				"add": {
+					"component_groups": [
+						"variant_59"
+					]
+				}
+			}
+		}
+	}
+}

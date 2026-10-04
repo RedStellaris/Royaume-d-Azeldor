@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "sh:spawnerv2",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:persistent": {},
+			"minecraft:breathable": {
+				"breathes_water": true
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:inventory": {
+				"container_type": "container",
+				"inventory_size": 56
+			},
+			"minecraft:nameable": {
+				"always_show": false
+			}
+		}
+	}
+}
