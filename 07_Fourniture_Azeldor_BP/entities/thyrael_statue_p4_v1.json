@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "azeldor:thyrael_statue_mossy",
+      "identifier": "azeldor:thyrael_statue_p4_v1",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
@@ -44,10 +44,7 @@
         "can_walk": false
       },
       "minecraft:type_family": {
-        "family": [
-          "statue",
-          "inanimate"
-        ]
+        "family": ["statue", "inanimate"]
       },
       "minecraft:is_hidden_when_invisible": {}
     },

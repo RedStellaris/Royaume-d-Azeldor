@@ -1,4 +1,4 @@
-﻿## ============================================
+## ============================================
 ## FOURNITURE D'AZELDOR - Renommage des pierres
 ## v1.1.1 - Noms définitifs
 ## ============================================
@@ -146,9 +146,7 @@ tile.chiseled_tuff.name=Bloc de tuf sculpté neuf
 tile.chiseled_tuff_bricks.name=Bloc de brique en tuf sculpté neuf
 
 ## ========== ENTITÉS AZELDOR ==========
-entity.azeldor:thyrael_statue.name=Statue de Thyraël
 entity.azeldor:thyrael_statue_big.name=Statue de Thyraël (Colossale)
-item.spawn_egg.entity.azeldor:thyrael_statue.name=Œuf de Statue de Thyraël
 item.spawn_egg.entity.azeldor:thyrael_statue_big.name=Œuf de Statue de Thyraël (Colossale)
 
 
@@ -187,16 +185,44 @@ tile.azeldor:bossage_pierre_neuf.name=Bloc de bossagé en pierre neuf
 tile.azeldor:bossage_pierre_moussu.name=Bloc de bossagé en pierre moussu
 tile.azeldor:bossage_pierre_vieillissant.name=Bloc de bossagé en pierre vieillissant
 
-## Statue Thyraël Mossy
-entity.azeldor:thyrael_statue_mossy.name=Statue de Thyraël moussue
-item.spawn_egg.entity.azeldor:thyrael_statue_mossy.name=Œuf de Statue de Thyraël moussue
 
-## Statue Thyraël Neige
-entity.azeldor:thyrael_statue_snow.name=Statue de Thyraël enneigée
-item.spawn_egg.entity.azeldor:thyrael_statue_snow.name=Œuf de Statue de Thyraël enneigée
 
 ## Disque Custom
 item.record_blocks.desc=Misty Mountains Piano
 
 ## Épée Relique
 item.azeldor:relic_sword.name=§6Épée Relique d'Azeldor
+
+## Statues Thyraël (16 : 4 poses x 4 variantes)
+entity.azeldor:thyrael_statue_p1_v1.name=Statue de Thyraël - pose 1 (variante 1)
+item.spawn_egg.entity.azeldor:thyrael_statue_p1_v1.name=Œuf de Statue de Thyraël - pose 1 (variante 1)
+entity.azeldor:thyrael_statue_p1_v2.name=Statue de Thyraël - pose 1 (variante 2)
+item.spawn_egg.entity.azeldor:thyrael_statue_p1_v2.name=Œuf de Statue de Thyraël - pose 1 (variante 2)
+entity.azeldor:thyrael_statue_p1_v3.name=Statue de Thyraël - pose 1 (variante 3)
+item.spawn_egg.entity.azeldor:thyrael_statue_p1_v3.name=Œuf de Statue de Thyraël - pose 1 (variante 3)
+entity.azeldor:thyrael_statue_p1_snow.name=Statue de Thyraël - pose 1 (enneigée)
+item.spawn_egg.entity.azeldor:thyrael_statue_p1_snow.name=Œuf de Statue de Thyraël - pose 1 (enneigée)
+entity.azeldor:thyrael_statue_p2_v1.name=Statue de Thyraël - pose 2 (variante 1)
+item.spawn_egg.entity.azeldor:thyrael_statue_p2_v1.name=Œuf de Statue de Thyraël - pose 2 (variante 1)
+entity.azeldor:thyrael_statue_p2_v2.name=Statue de Thyraël - pose 2 (variante 2)
+item.spawn_egg.entity.azeldor:thyrael_statue_p2_v2.name=Œuf de Statue de Thyraël - pose 2 (variante 2)
+entity.azeldor:thyrael_statue_p2_v3.name=Statue de Thyraël - pose 2 (variante 3)
+item.spawn_egg.entity.azeldor:thyrael_statue_p2_v3.name=Œuf de Statue de Thyraël - pose 2 (variante 3)
+entity.azeldor:thyrael_statue_p2_snow.name=Statue de Thyraël - pose 2 (enneigée)
+item.spawn_egg.entity.azeldor:thyrael_statue_p2_snow.name=Œuf de Statue de Thyraël - pose 2 (enneigée)
+entity.azeldor:thyrael_statue_p3_v1.name=Statue de Thyraël - pose 3 (variante 1)
+item.spawn_egg.entity.azeldor:thyrael_statue_p3_v1.name=Œuf de Statue de Thyraël - pose 3 (variante 1)
+entity.azeldor:thyrael_statue_p3_v2.name=Statue de Thyraël - pose 3 (variante 2)
+item.spawn_egg.entity.azeldor:thyrael_statue_p3_v2.name=Œuf de Statue de Thyraël - pose 3 (variante 2)
+entity.azeldor:thyrael_statue_p3_v3.name=Statue de Thyraël - pose 3 (variante 3)
+item.spawn_egg.entity.azeldor:thyrael_statue_p3_v3.name=Œuf de Statue de Thyraël - pose 3 (variante 3)
+entity.azeldor:thyrael_statue_p3_snow.name=Statue de Thyraël - pose 3 (enneigée)
+item.spawn_egg.entity.azeldor:thyrael_statue_p3_snow.name=Œuf de Statue de Thyraël - pose 3 (enneigée)
+entity.azeldor:thyrael_statue_p4_v1.name=Statue de Thyraël - pose 4 (variante 1)
+item.spawn_egg.entity.azeldor:thyrael_statue_p4_v1.name=Œuf de Statue de Thyraël - pose 4 (variante 1)
+entity.azeldor:thyrael_statue_p4_v2.name=Statue de Thyraël - pose 4 (variante 2)
+item.spawn_egg.entity.azeldor:thyrael_statue_p4_v2.name=Œuf de Statue de Thyraël - pose 4 (variante 2)
+entity.azeldor:thyrael_statue_p4_v3.name=Statue de Thyraël - pose 4 (variante 3)
+item.spawn_egg.entity.azeldor:thyrael_statue_p4_v3.name=Œuf de Statue de Thyraël - pose 4 (variante 3)
+entity.azeldor:thyrael_statue_p4_snow.name=Statue de Thyraël - pose 4 (enneigée)
+item.spawn_egg.entity.azeldor:thyrael_statue_p4_snow.name=Œuf de Statue de Thyraël - pose 4 (enneigée)

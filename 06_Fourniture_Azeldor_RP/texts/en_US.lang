@@ -1,7 +1,5 @@
-﻿## AZELDOR - Entity names (English)
-entity.azeldor:thyrael_statue.name=Thyrael Statue
+## AZELDOR - Entity names (English)
 entity.azeldor:thyrael_statue_big.name=Thyrael Statue (Colossal)
-item.spawn_egg.entity.azeldor:thyrael_statue.name=Thyrael Statue Spawn Egg
 item.spawn_egg.entity.azeldor:thyrael_statue_big.name=Thyrael Statue (Colossal) Spawn Egg
 
 
@@ -40,16 +38,44 @@ tile.azeldor:bossage_pierre_neuf.name=Rusticated Stone
 tile.azeldor:bossage_pierre_moussu.name=Mossy Rusticated Stone
 tile.azeldor:bossage_pierre_vieillissant.name=Aged Rusticated Stone
 
-## Mossy Thyrael Statue
-entity.azeldor:thyrael_statue_mossy.name=Mossy Thyrael Statue
-item.spawn_egg.entity.azeldor:thyrael_statue_mossy.name=Mossy Thyrael Statue Spawn Egg
 
-## Snow Thyrael Statue
-entity.azeldor:thyrael_statue_snow.name=Snow Thyrael Statue
-item.spawn_egg.entity.azeldor:thyrael_statue_snow.name=Snow Thyrael Statue Spawn Egg
 
 ## Custom Disc
 item.record_blocks.desc=Misty Mountains Piano
 
 ## Relic Sword
 item.azeldor:relic_sword.name=§6Azeldor Relic Sword
+
+## Thyrael Statues (16: 4 poses x 4 variants)
+entity.azeldor:thyrael_statue_p1_v1.name=Thyrael Statue - Pose 1 (Variant 1)
+item.spawn_egg.entity.azeldor:thyrael_statue_p1_v1.name=Thyrael Statue - Pose 1 (Variant 1) Spawn Egg
+entity.azeldor:thyrael_statue_p1_v2.name=Thyrael Statue - Pose 1 (Variant 2)
+item.spawn_egg.entity.azeldor:thyrael_statue_p1_v2.name=Thyrael Statue - Pose 1 (Variant 2) Spawn Egg
+entity.azeldor:thyrael_statue_p1_v3.name=Thyrael Statue - Pose 1 (Variant 3)
+item.spawn_egg.entity.azeldor:thyrael_statue_p1_v3.name=Thyrael Statue - Pose 1 (Variant 3) Spawn Egg
+entity.azeldor:thyrael_statue_p1_snow.name=Thyrael Statue - Pose 1 (Snowy)
+item.spawn_egg.entity.azeldor:thyrael_statue_p1_snow.name=Thyrael Statue - Pose 1 (Snowy) Spawn Egg
+entity.azeldor:thyrael_statue_p2_v1.name=Thyrael Statue - Pose 2 (Variant 1)
+item.spawn_egg.entity.azeldor:thyrael_statue_p2_v1.name=Thyrael Statue - Pose 2 (Variant 1) Spawn Egg
+entity.azeldor:thyrael_statue_p2_v2.name=Thyrael Statue - Pose 2 (Variant 2)
+item.spawn_egg.entity.azeldor:thyrael_statue_p2_v2.name=Thyrael Statue - Pose 2 (Variant 2) Spawn Egg
+entity.azeldor:thyrael_statue_p2_v3.name=Thyrael Statue - Pose 2 (Variant 3)
+item.spawn_egg.entity.azeldor:thyrael_statue_p2_v3.name=Thyrael Statue - Pose 2 (Variant 3) Spawn Egg
+entity.azeldor:thyrael_statue_p2_snow.name=Thyrael Statue - Pose 2 (Snowy)
+item.spawn_egg.entity.azeldor:thyrael_statue_p2_snow.name=Thyrael Statue - Pose 2 (Snowy) Spawn Egg
+entity.azeldor:thyrael_statue_p3_v1.name=Thyrael Statue - Pose 3 (Variant 1)
+item.spawn_egg.entity.azeldor:thyrael_statue_p3_v1.name=Thyrael Statue - Pose 3 (Variant 1) Spawn Egg
+entity.azeldor:thyrael_statue_p3_v2.name=Thyrael Statue - Pose 3 (Variant 2)
+item.spawn_egg.entity.azeldor:thyrael_statue_p3_v2.name=Thyrael Statue - Pose 3 (Variant 2) Spawn Egg
+entity.azeldor:thyrael_statue_p3_v3.name=Thyrael Statue - Pose 3 (Variant 3)
+item.spawn_egg.entity.azeldor:thyrael_statue_p3_v3.name=Thyrael Statue - Pose 3 (Variant 3) Spawn Egg
+entity.azeldor:thyrael_statue_p3_snow.name=Thyrael Statue - Pose 3 (Snowy)
+item.spawn_egg.entity.azeldor:thyrael_statue_p3_snow.name=Thyrael Statue - Pose 3 (Snowy) Spawn Egg
+entity.azeldor:thyrael_statue_p4_v1.name=Thyrael Statue - Pose 4 (Variant 1)
+item.spawn_egg.entity.azeldor:thyrael_statue_p4_v1.name=Thyrael Statue - Pose 4 (Variant 1) Spawn Egg
+entity.azeldor:thyrael_statue_p4_v2.name=Thyrael Statue - Pose 4 (Variant 2)
+item.spawn_egg.entity.azeldor:thyrael_statue_p4_v2.name=Thyrael Statue - Pose 4 (Variant 2) Spawn Egg
+entity.azeldor:thyrael_statue_p4_v3.name=Thyrael Statue - Pose 4 (Variant 3)
+item.spawn_egg.entity.azeldor:thyrael_statue_p4_v3.name=Thyrael Statue - Pose 4 (Variant 3) Spawn Egg
+entity.azeldor:thyrael_statue_p4_snow.name=Thyrael Statue - Pose 4 (Snowy)
+item.spawn_egg.entity.azeldor:thyrael_statue_p4_snow.name=Thyrael Statue - Pose 4 (Snowy) Spawn Egg

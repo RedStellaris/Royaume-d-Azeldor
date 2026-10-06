@@ -1,0 +1,53 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "azeldor:thyrael_statue_p2_v3",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:health": {
+        "value": 999999,
+        "max": 999999
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:collision_box": {
+        "width": 1.5,
+        "height": 3.5
+      },
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:movement": {
+        "value": 0
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "can_walk": false
+      },
+      "minecraft:type_family": {
+        "family": ["statue", "inanimate"]
+      },
+      "minecraft:is_hidden_when_invisible": {}
+    },
+    "events": {}
+  }
+}

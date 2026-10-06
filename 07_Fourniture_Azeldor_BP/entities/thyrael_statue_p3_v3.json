@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "azeldor:thyrael_statue",
+      "identifier": "azeldor:thyrael_statue_p3_v3",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false

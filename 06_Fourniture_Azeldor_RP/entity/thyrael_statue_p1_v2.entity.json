@@ -2,22 +2,22 @@
   "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "azeldor:thyrael_statue_snow",
+      "identifier": "azeldor:thyrael_statue_p1_v2",
       "materials": {
         "default": "entity"
       },
       "textures": {
-        "default": "textures/entity/thyrael_statue_snow"
+        "default": "textures/entity/thyrael_statue_v2"
       },
       "geometry": {
-        "default": "geometry.azeldor.thyrael_statue_snow"
+        "default": "geometry.azeldor.thyrael_statue_p1"
       },
       "render_controllers": [
         "controller.render.thyrael_statue"
       ],
       "spawn_egg": {
         "base_color": "#4a4a4a",
-        "overlay_color": "#d4e8f0"
+        "overlay_color": "#3a7a2e"
       }
     }
   }

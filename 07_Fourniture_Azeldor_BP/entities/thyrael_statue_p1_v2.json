@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "azeldor:thyrael_statue_snow",
+      "identifier": "azeldor:thyrael_statue_p1_v2",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
@@ -44,10 +44,7 @@
         "can_walk": false
       },
       "minecraft:type_family": {
-        "family": [
-          "statue",
-          "inanimate"
-        ]
+        "family": ["statue", "inanimate"]
       },
       "minecraft:is_hidden_when_invisible": {}
     },

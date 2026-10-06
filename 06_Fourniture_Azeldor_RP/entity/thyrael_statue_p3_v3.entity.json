@@ -2,22 +2,22 @@
   "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "azeldor:thyrael_statue",
+      "identifier": "azeldor:thyrael_statue_p3_v3",
       "materials": {
         "default": "entity"
       },
       "textures": {
-        "default": "textures/entity/thyrael_statue"
+        "default": "textures/entity/thyrael_statue_v3"
       },
       "geometry": {
-        "default": "geometry.azeldor.thyrael_statue"
+        "default": "geometry.azeldor.thyrael_statue_p3"
       },
       "render_controllers": [
         "controller.render.thyrael_statue"
       ],
       "spawn_egg": {
         "base_color": "#4a4a4a",
-        "overlay_color": "#2d5a1e"
+        "overlay_color": "#7a6a5a"
       }
     }
   }
