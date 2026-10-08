@@ -25,7 +25,7 @@
     "version": [
       4,
       3,
-      0
+      1
     ]
   },
   "modules": [
@@ -35,7 +35,7 @@
       "version": [
         4,
         3,
-        0
+        1
       ]
     }
   ],
@@ -44,11 +44,11 @@
   ],
   "dependencies": [
     {
-      "uuid": "a8149a87-ed07-4799-a66a-c9c7d31fa6d9",
+      "uuid": "8d7cfc30-f234-429c-bca9-f90f4ced096d",
       "version": [
         4,
         3,
-        0
+        1
       ]
     }
   ]
