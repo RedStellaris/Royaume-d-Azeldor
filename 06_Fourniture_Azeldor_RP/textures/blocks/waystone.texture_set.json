@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "waystone",
+    "metalness_emissive_roughness": "waystone_mer"
+  }
+}

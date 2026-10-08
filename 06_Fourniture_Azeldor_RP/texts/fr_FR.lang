@@ -1,4 +1,4 @@
-## ============================================
+﻿## ============================================
 ## FOURNITURE D'AZELDOR - Renommage des pierres
 ## v1.1.1 - Noms définitifs
 ## ============================================
@@ -226,3 +226,6 @@ entity.azeldor:thyrael_statue_p4_v3.name=Statue de Thyraël - pose 4 (variante 3
 item.spawn_egg.entity.azeldor:thyrael_statue_p4_v3.name=Œuf de Statue de Thyraël - pose 4 (variante 3)
 entity.azeldor:thyrael_statue_p4_snow.name=Statue de Thyraël - pose 4 (enneigée)
 item.spawn_egg.entity.azeldor:thyrael_statue_p4_snow.name=Œuf de Statue de Thyraël - pose 4 (enneigée)
+
+## Waystone
+tile.azeldor:waystone.name=Waystone d'Azeldor

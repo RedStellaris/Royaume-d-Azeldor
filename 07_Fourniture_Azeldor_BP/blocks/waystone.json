@@ -1,0 +1,57 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:block": {
+    "description": {
+      "identifier": "azeldor:waystone",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.azeldor.waystone",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "azeldor_waystone",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -7,
+          0,
+          -7
+        ],
+        "size": [
+          14,
+          16,
+          14
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -7,
+          0,
+          -7
+        ],
+        "size": [
+          14,
+          16,
+          14
+        ]
+      },
+      "minecraft:destructible_by_mining": false,
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:map_color": "#5a5a6e",
+      "minecraft:tick": {
+        "interval_range": [
+          60,
+          84
+        ],
+        "looping": true
+      },
+      "azeldor:soul_particles": {},
+      "minecraft:light_emission": 10
+    }
+  }
+}

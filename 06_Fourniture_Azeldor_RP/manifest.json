@@ -6,13 +6,13 @@
     "uuid": "7ccc8937-44a2-48a4-bdd4-f951375eca7e",
     "version": [
       1,
-      6,
+      14,
       0
     ],
     "min_engine_version": [
       1,
-      16,
-      0
+      21,
+      120
     ]
   },
   "modules": [
@@ -21,7 +21,7 @@
       "uuid": "d4bc6ec7-3c2f-46e3-892e-cbdf5b1ce2b7",
       "version": [
         1,
-        6,
+        14,
         0
       ]
     }
@@ -31,9 +31,12 @@
       "uuid": "4eb8c5d6-34a0-437f-ac45-2c96d00fb5dd",
       "version": [
         1,
-        6,
+        14,
         0
       ]
     }
+  ],
+  "capabilities": [
+    "pbr"
   ]
 }

@@ -123,6 +123,9 @@
     },
     "azeldor_bossage_pierre_vieillissant_top": {
       "textures": "textures/blocks/bossage_pierre_vieillissant_top"
+    },
+    "azeldor_waystone": {
+      "textures": "textures/blocks/waystone"
     }
   }
 }

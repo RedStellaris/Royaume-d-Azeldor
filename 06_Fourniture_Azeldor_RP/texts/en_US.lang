@@ -1,4 +1,4 @@
-## AZELDOR - Entity names (English)
+﻿## AZELDOR - Entity names (English)
 entity.azeldor:thyrael_statue_big.name=Thyrael Statue (Colossal)
 item.spawn_egg.entity.azeldor:thyrael_statue_big.name=Thyrael Statue (Colossal) Spawn Egg
 
@@ -79,3 +79,6 @@ entity.azeldor:thyrael_statue_p4_v3.name=Thyrael Statue - Pose 4 (Variant 3)
 item.spawn_egg.entity.azeldor:thyrael_statue_p4_v3.name=Thyrael Statue - Pose 4 (Variant 3) Spawn Egg
 entity.azeldor:thyrael_statue_p4_snow.name=Thyrael Statue - Pose 4 (Snowy)
 item.spawn_egg.entity.azeldor:thyrael_statue_p4_snow.name=Thyrael Statue - Pose 4 (Snowy) Spawn Egg
+
+## Waystone
+tile.azeldor:waystone.name=Azeldor Waystone

@@ -102,5 +102,8 @@
   },
   "azeldor:bossage_pierre_vieillissant": {
     "sound": "stone"
+  },
+  "azeldor:waystone": {
+    "sound": "stone"
   }
 }

@@ -1,0 +1,8 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/waystone",
+    "atlas_tile": "azeldor_waystone",
+    "ticks_per_frame": 3,
+    "blend_frames": true
+  }
+]
